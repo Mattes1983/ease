@@ -1,0 +1,6 @@
+.EASEImagePreview {
+    background: url('basic/images/preview.png') no-repeat center center #bebebe;
+    display: block;
+    min-width: 50px;
+    min-height: 50px;
+}

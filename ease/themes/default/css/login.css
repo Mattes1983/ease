@@ -1,0 +1,161 @@
+body {
+    background-position: 10% 10%;
+}
+
+img {
+    border: 0;
+    outline: 0;
+}
+
+.Center {
+    width: 100%;
+    height: 100%;
+    display: table;
+}
+.CenterInner {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}    
+
+#easeLogin {
+    background-color: #6c7176;
+    width: 350px;
+    height: 200px;
+    border-radius: 4px;
+    position: relative;
+    margin: 0 auto;
+    z-index: 10;
+    font-family: Arial;
+    font-size: 13px; 
+    line-height: 120%;
+    color: #fff;
+    font-weight: normal;
+    cursor: default;
+    text-align: left;
+    -moz-box-shadow: 2px 3px 3px #666;
+    -webkit-box-shadow: 2px 3px 3px #666;
+    box-shadow: 2px 3px 3px #666;
+}
+
+#easeLogin:hover {
+    border: 1px #fff solid;
+}
+
+#easeLogin .Pad {
+    margin: 0;
+    padding: 20px 10px 10px 37px;
+}
+
+#easeLogin form {
+    padding: 0;
+    margin: 0;
+}
+
+#easeLogin .Error {
+    display: block;
+    color: #f00;
+    padding: 0 0 10px;
+}
+
+#easeLogin .formName {
+    display: inline-block;
+    width: 70px;
+}
+
+#easeLogin input,
+#easeLogin input:hover,
+#easeLogin input:focus {
+    width: 150px;
+    height: 18px;
+    border: 0;
+    border-radius: 4px;
+    color: #262626;
+    font-size: 12px;
+    line-height: 18px;
+    outline: 0;
+}
+
+#easeLogin .clear {
+    clear: both;
+    height: 10px;
+}
+
+#easeLogin h1 {
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 34px;
+    color: #606366;
+    display: block;
+    margin: 0;
+    padding: 0;
+    background: url('../images/toolbox-h1-bg.png') repeat-x left top #7c8287;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    text-align: center;
+    text-transform: uppercase;
+    -moz-box-shadow: 0 3px 4px #595d61;
+    -webkit-box-shadow: 0 3px 4px #595d61;
+    box-shadow: 0 3px 4px #595d61;
+    -moz-text-shadow: 1px 1px 2px #cecece;
+    -webkit-text-shadow: 1px 1px 2px #cecece;
+    text-shadow: 1px 1px 2px #cecece;
+}
+
+#easeLogin .ButtonBlack {
+
+}
+
+#easeLogin .ButtonBlack .ButtonCenter {
+    float: left;
+    height: 25px;
+    line-height: 25px;
+    background: none;
+    background: url('../images/button-center.png') repeat-x;
+}
+
+#easeLogin .ButtonBlack .ButtonLeft {
+    float: left;
+    width: 5px;
+    height: 25px;
+    line-height: 25px;
+    background: url('../images/button-left.png') no-repeat 0 0;
+}
+
+#easeLogin .ButtonBlack .ButtonRight {
+    float: left;
+    width: 5px;
+    height: 25px;
+    line-height: 25px;
+    background: url('../images/button-right.png') no-repeat right 0;
+}
+
+#easeLogin .ButtonBlack .ButtonCenter input {
+    width: auto;
+    height: 25px;
+    padding: 0 10px;
+    background: none;
+    border-radius: 0;
+    border: 0;
+    cursor: pointer;
+    color: #fff;
+    line-height: 25px;
+}
+
+#easeLogin .Footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background: url('../images/footer-bg.png') repeat-x left top #414244;
+    text-align: right;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+#easeLogin .Footer .Pad {
+    margin: 13px 20px 0;
+    padding: 0;
+    float: right;
+}

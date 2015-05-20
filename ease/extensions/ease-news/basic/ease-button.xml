@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<buttons>
+    <level2>
+        <button>
+            <groupname>{News}</groupname>
+            <text>{NewsOverview}</text>
+            <description>{NewsOverview2}</description>
+            <type>drag</type>
+            <paramname>item</paramname>
+            <paramvalue>overview</paramvalue>
+        </button>
+        <button>
+            <groupname>{News}</groupname>
+            <text>{NewsDetail}</text>
+            <description>{NewsDetail2}</description>
+            <type>drag</type>
+            <paramname>item</paramname>
+            <paramvalue>detail</paramvalue>
+        </button>
+    </level2>
+</buttons>

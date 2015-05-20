@@ -1,0 +1,38 @@
+<div class="Dialog EditDialog">
+    <div class="DialogTop">
+	<h1>{Edit}</h1>
+	<div class="Pad">
+	    <form name="EditForm" method="post" enctype="multipart/form-data" onsubmit="return false">
+		<input type="hidden" name="edit_id" />
+
+		<h3>{LinkText}</h3>
+	        <p><input type="text" name="edit_name" class="EditFormName" /></p>
+
+		<span class="EditFormDocument">
+		    <h3>{Document}</h3>
+		    <p class="content"></p>
+		</span>
+
+		<span class="EditFormURL">
+		    <h3>{ExternURL}</h3>
+		    <p><input type="text" name="edit_url" /></p>
+		</span>
+
+		<span class="EditFormTarget">
+		    <h3>{Target}</h3>
+		    <p><input type="text" name="edit_target" /></p>
+		</span>
+	    </form>
+	</div>
+    </div>
+    <div class="DialogFooter">
+	<div class="Pad">
+	    <div class="ButtonBlack">
+		<div class="ButtonLeft"></div><div class="ButtonCenter"><a href="javascript:;" onclick="fctSaveEdit()" class="Button"><span class="ButtonText">{Save}</span></a></div><div class="ButtonRight"></div>
+	    </div>
+	    <div class="ButtonBlack">
+		<div class="ButtonLeft"></div><div class="ButtonCenter"><a href="javascript:;" onclick="fctCloseEdit()" class="Button"><span class="ButtonText">{Cancel}</span></a></div><div class="ButtonRight"></div>
+	    </div>
+	</div>
+    </div>
+</div>

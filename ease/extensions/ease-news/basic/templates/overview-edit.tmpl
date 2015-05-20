@@ -1,0 +1,38 @@
+<ease:edit edit="true" move="true" join="true" copy="true" delete="true" />
+<div id="EASENewsOverviewEdit-<ease:id />" class="EASENewsOverviewEditDisplay">
+    <div class="EASENewsOverviewEdit">
+	<form name="EASENewsOverviewEditForm-<ease:id />" onSubmit="return false">
+	<h1>easeNews-{Settings1}</h1>
+	<div class="Pad">
+
+	    <p>{Settings2}</p>
+
+	    <div class="EASENewsOverviewEditBlock">
+		<div class="EASENewsOverviewEditLeft">{HeadlineLength}:</div>
+		<div class="EASENewsOverviewEditRight"><input name="headlinelength" value="<ease:headlinelength />" /></div>
+		<div class="Clear"></div>
+	    </div>
+
+	    <div class="EASENewsOverviewEditBlock">
+		<div class="EASENewsOverviewEditLeft">{TextLength}:</div>
+		<div class="EASENewsOverviewEditRight"><input name="textlength" value="<ease:textlength />" /></div>
+		<div class="Clear"></div>
+	    </div>
+
+	    <div class="EASENewsOverviewEditBlock">
+		<div class="EASENewsOverviewEditLeft">{DetailLinkText}:</div>
+		<div class="EASENewsOverviewEditRight"><input name="detaillinktext" value="<ease:detaillinktext />" /></div>
+		<div class="Clear"></div>
+	    </div>
+
+	</div>
+	</form>
+	<div class="Clear"></div>
+    </div>
+</div>
+<div class="EaseNewsOverview">
+    <ease:news drop="false" />
+</div>
+<div id="EASENewsOverviewEdit2-<ease:id />" class="EASENewsOverviewEditDisplay">
+    <div class="EASENewsOverviewEdit">&nbsp;</div>
+</div>

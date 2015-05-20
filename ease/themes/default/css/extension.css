@@ -1,0 +1,91 @@
+/* Extension */
+#easeExtensionPopup {
+    display: none;
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    border: 0;
+}
+
+#easeBlackBG {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 9;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+}
+
+#easeExtensionPopupSizeBorder {
+    display: none;
+    position: absolute;
+    z-index: 20;
+    top: 50%;
+    left: 50%;
+    width: 300px;
+    height: 300px;
+    margin: 0;
+    border: 0;
+    background: url('../images/body-bg.png') repeat left top #6c7176;
+    border-radius: 4px;
+    border: 1px transparent solid;
+    font-family: Arial;
+    font-size: 13px; 
+    line-height: 120%;
+    color: #fff;
+    font-weight: normal;
+    cursor: default;
+    overflow: hidden;
+    -moz-box-shadow: 2px 3px 3px #666;
+    -webkit-box-shadow: 2px 3px 3px #666;
+    box-shadow: 2px 3px 3px #666;
+}
+#easeExtensionPopupSizeBorder:hover {
+    border: 1px #fff solid;
+}
+
+#easeExtensionPopupSizeBorder .ButtonMode {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+    #easeExtensionPopupSizeBorder .ButtonMode a.ButtonClose {
+	float: right;
+	width: 20px;
+	height: 20px;
+	background: url('../images/button-close.gif') no-repeat left top;
+	text-indent: -1000px;
+	color: transparent;
+    }
+
+#easeExtensionPopupSizeBorder h1 {
+    cursor: move;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 34px;
+    color: #4b4949;
+    display: block;
+    margin: 0 0 5px;
+    padding: 0;
+    background: url('../images/toolbox-h1-bg.png') repeat-x left top #7c8287;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    text-align: center;
+    text-transform: uppercase;
+    -moz-box-shadow: 0 3px 4px #595d61;
+    -webkit-box-shadow: 0 3px 4px #595d61;
+    box-shadow: 0 3px 4px #595d61;
+    -moz-text-shadow: 1px 1px 2px #cecece;
+    -webkit-text-shadow: 1px 1px 2px #cecece;
+    text-shadow: 1px 1px 2px #cecece;
+}
+
+#easeExtensionPopupSizeBorder iframe {
+    border: 0;
+}

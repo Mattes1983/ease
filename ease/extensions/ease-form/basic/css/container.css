@@ -1,0 +1,19 @@
+.EASEFormMessage {
+    color: #f00;
+}
+
+.EASEFormSubmit {
+    margin-left: 100px;
+}
+
+.EASEFormSubmit input {
+    cursor: pointer;
+}
+
+.EASEFormSubmit input:hover {
+
+}
+
+label {
+    cursor: pointer;
+}

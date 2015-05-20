@@ -1,0 +1,65 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    padding: 0;
+    margin: 0;
+    outline: none;
+    cursor:default;
+    font-family: Arial;
+    font-size: 11px;
+    font-weight: normal;
+    line-height: 120%;
+    /*background: url('../images/body-bg.png') repeat;*/
+    background: #efefef;
+}
+
+body {
+    background: url('../images/ease-logo.png') no-repeat center center;
+}
+
+a:focus,
+a:active {
+    outline: none;
+}
+
+#easeResetbox {
+    display: none;
+}
+
+#easeMain {
+    display: none;
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    border: 0;
+}
+
+#easeLoading {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    width: 100%;
+    height: 100%;
+    background: #efefef;
+}
+
+    #easeLoading .Table {
+	display: table;
+	width: 100%;
+	height: 100%;
+    }
+    
+	#easeLoading .TableCell {
+	    display: table-cell;
+	    width: 100%;
+	    height: 100%;
+	    vertical-align: middle;
+	    text-align: center;
+	}

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<languages>
+    <language index="en">
+	<label index="Close">Close</label>
+	<label index="Browse">Browse</label>
+	<label index="Ok">Ok</label>
+	<label index="ContentElements">Content-Elements</label>
+	<label index="TextField">Textfield</label>
+	<label index="Search">Search</label>
+	<label index="NoTitle">No Title</label>
+	<label index="Author">Author</label>
+	<label index="LastChange">Last Change</label>
+	<label index="Description">Description</label>
+	<label index="Content">Content</label>
+	<label index="Cancel">Cancel</label>
+	<label index="Pages">Pages</label>
+	<label index="Files">Files</label>
+	<label index="NewFile">Upload File</label>
+	<label index="Name">Filename</label>
+	<label index="FileDelete1">Delete</label>
+	<label index="FileDelete2">You really want to delete this file?</label>
+	<label index="Yes">Yes</label>
+	<label index="No">No</label>
+	<label index="Error">Error</label>
+	<label index="Error2">The Image can not be deleted</label>
+	<label index="Upload">Upload</label>
+	<label index="Upload1">File upload</label>
+	<label index="Upload2">Select a file: (Formats: PDF)</label>
+	<label index="Upload4">File uploading</label>
+	<label index="Upload5">Please wait...</label>
+	<label index="Preview">Preview</label>
+    </language>
+    <language index="de">
+	<label index="Close">Schließen</label>
+	<label index="Browse">Durchsuchen</label>
+	<label index="Ok">Ok</label>
+	<label index="ContentElements">Inhalts-Elemente</label>
+	<label index="TextField">Textfeld</label>
+	<label index="Search">Suchen</label>
+	<label index="NoTitle">Kein Titel</label>
+	<label index="Author">Autor</label>
+	<label index="LastChange">Letzte Änderung</label>
+	<label index="Description">Beschreibung</label>
+	<label index="Content">Inhalt</label>
+	<label index="Cancel">Abbrechen</label>
+	<label index="Pages">Seiten</label>
+	<label index="Files">Dateien</label>
+	<label index="NewFile">Datei hochladen</label>
+	<label index="Name">Dateiname</label>
+	<label index="FileDelete1">Löschen</label>
+	<label index="FileDelete2">Wollen Sie die Datei wirklich löschen?</label>
+	<label index="Yes">Ja</label>
+	<label index="No">Nein</label>
+	<label index="Error">Error</label>
+	<label index="Error2">Die Datei konnte nicht gelöscht werden</label>
+	<label index="Upload">Hochladen</label>
+	<label index="Upload1">Datei hochladen</label>
+	<label index="Upload2">Datei auswählen: (Formate: PDF)</label>
+	<label index="Upload4">Datei wird hochgeladen</label>
+	<label index="Upload5">Bitte warten...</label>
+	<label index="Preview">Vorschau</label>
+    </language>
+</languages>

@@ -1,0 +1,347 @@
+ul {
+    list-style-type: none;
+}
+
+.Drag {
+    z-index: 99;
+    max-width: 175px;
+}
+
+header {
+    width: 100%;
+    height: 275px;
+    background: #636467;
+}
+
+    header h2 {
+	margin: 0 0 0 45px;
+	padding: 0;
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 50px;
+	color: #8c8d8e;
+    }
+
+    header .Buttons {
+	height: 73px;
+    }
+    
+    header hr {
+	margin: 0;
+    }
+
+    header .Search .Left {
+	margin: 25px 0 0 20px;
+	width: 200px;
+	float: left;
+    }
+
+    header .Search .Right {
+	margin: 25px 0 0 0;
+	width: 42px;
+	height: 23px;
+	float: left;
+    }
+
+    header .Search input,
+    header .Search input:hover,
+    header .Search input:focus {
+	width: 200px;
+	height: 20px;
+	border: 0;
+	border-top-left-radius: 4px;
+	border-bottom-left-radius: 4px;
+	color: #535353;
+	font-size: 12px;
+	line-height: 20px;
+	outline: 0;
+    }
+
+    header .Search .SearchButton {
+	width: 42px;
+	height: 23px;
+	background: url('../images/button-search.png') no-repeat;
+	cursor: pointer;
+    }
+
+    header .Documents {
+	height: 198px;
+    }
+    
+	header .Content {
+	    position: absolute;
+	    left: 0;
+	    top: 90px;
+	    width: 100%;
+	    white-space: nowrap;
+	    overflow: hidden;
+	}
+
+    .Doc {
+	margin: 20px 0 0 10px;
+	display: inline-block;
+	cursor: move;
+	width: 175px;
+	height: 115px;
+	border: 0;
+	border-radius: 4px;
+	position: relative;
+	-moz-box-shadow: 4px 4px 4px #666;
+	-webkit-box-shadow: 4px 4px 4px #666;
+	box-shadow: 4px 4px 4px #666;
+	background: #f7f7f7;
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2Y3ZjdmNyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmN2Y3ZjciIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-linear-gradient(top,  #f7f7f7 0%, #f7f7f7 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f7f7f7), color-stop(100%,#f7f7f7));
+	background: -webkit-linear-gradient(top,  #f7f7f7 0%,#f7f7f7 100%);
+	background: -o-linear-gradient(top,  #f7f7f7 0%,#f7f7f7 100%);
+	background: -ms-linear-gradient(top,  #f7f7f7 0%,#f7f7f7 100%);
+	background: linear-gradient(top,  #f7f7f7 0%,#f7f7f7 100%);
+    }
+    
+	.Doc h2 {
+	    display: block;
+	    font-size: 12px;
+	    font-weight: bold;
+	    line-height: 25px;
+	    color: #4b4949;
+	    display: block;
+	    margin: 0;
+	    height: 25px;
+            overflow: hidden;
+            padding: 0 10px 0 15px;
+	    background: url('../images/h2-bg.png') repeat-x left top #e8e8e8;
+	    border-top-left-radius: 4px;
+	    border-top-right-radius: 4px;
+	    text-align: left;
+	    text-transform: uppercase;
+	    -moz-box-shadow: 0 2px 2px #ababab;
+	    -webkit-box-shadow: 0 2px 2px #ababab;
+	    box-shadow: 0 2px 2px #ababab;
+	    -moz-text-shadow: 1px 1px 2px #cecece;
+	    -webkit-text-shadow: 1px 1px 2px #cecece;
+	    text-shadow: 1px 1px 2px #cecece;
+	}
+	
+	.Doc .Pad{
+	    margin: 10px 10px 0 10px;
+	    padding: 0;
+	    height: 75px;
+	    overflow: hidden;
+	}
+
+	.Doc p {
+	    white-space: normal;
+	    padding: 0;
+	    margin: 0 0 5px;
+	    font-size: 11px;
+	    font-weight: normal;
+	    line-height: 120%;
+	}
+    
+.Menu {
+    overflow: auto;
+    position: relative;
+    white-space: nowrap;
+}
+
+    .Menu h2 {
+	margin: 0 0 0 45px;
+	padding: 0;
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 50px;
+	color: #636467;
+    }
+
+    .Menu canvas {
+	position: absolute;
+	top: -100px;
+	left: 0;
+	z-index: 1;
+    }
+
+    .Menu ul {
+	position: absolute;
+	top: 60px;
+	left: 20px;
+	margin: 0;
+	padding: 0;
+	height: 115px;
+    }
+    
+	.Menu ul ul {
+	    top: 216px;
+	    left: 0;
+	}
+    
+	.Menu ul li {
+	    width: 175px;
+	    height: 115px;
+	    position: relative;
+	    display: inline-block;
+	}
+	
+	.Menu li li {
+	    display: none;
+	}
+        
+	.Menu ul.Active > li {
+	    display: inline-block;
+            
+	}
+        
+        @media screen and (-webkit-min-device-pixel-ratio:0) {
+            .Menu ul.Active > li {
+                float: left;
+            }
+        }
+	
+	.Menu li.DropLi {
+	    width: 25px;
+	    overflow: hidden;
+	}
+    
+	.Menu .ItemBox {
+	    margin: 0;
+	    width: 167px;
+	    height: 107px;
+	    border: 4px #dbdbdb dashed;
+	    border-radius: 4px;
+	}
+	
+	.Menu .ItemBox2 {
+	    margin: 0 10px;
+	    width: 147px;
+	    height: 107px;
+	    border: 4px #078ac9 dashed;
+	    border-radius: 4px;
+	}
+	
+    .Item {
+	cursor: move;
+	overflow: hidden;
+	width: 175px;
+	height: 115px;
+	border: 0;
+	border-radius: 4px;
+	position: relative;
+	z-index: 10;
+	-moz-box-shadow: 4px 4px 4px #666;
+	-webkit-box-shadow: 4px 4px 4px #666;
+	box-shadow: 4px 4px 4px #666;
+	background: #f7f7f7;
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2Y3ZjdmNyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmN2Y3ZjciIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-linear-gradient(top,  #f7f7f7 0%, #f7f7f7 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f7f7f7), color-stop(100%,#f7f7f7));
+	background: -webkit-linear-gradient(top,  #f7f7f7 0%,#f7f7f7 100%);
+	background: -o-linear-gradient(top,  #f7f7f7 0%,#f7f7f7 100%);
+	background: -ms-linear-gradient(top,  #f7f7f7 0%,#f7f7f7 100%);
+	background: linear-gradient(top,  #f7f7f7 0%,#f7f7f7 100%);
+    }
+    
+    .Item:hover {
+
+    }
+
+	.Item h2 {
+	    display: block;
+	    font-size: 12px;
+	    font-weight: bold;
+	    line-height: 25px;
+	    color: #4b4949;
+	    display: block;
+	    margin: 0;
+	    padding: 0 100px 0 15px;
+	    background: url('../images/h2-bg.png') repeat-x left top #e8e8e8;
+	    border-top-left-radius: 4px;
+	    border-top-right-radius: 4px;
+	    text-align: left;
+	    text-transform: uppercase;
+	    -moz-box-shadow: 0 2px 2px #ababab;
+	    -webkit-box-shadow: 0 2px 2px #ababab;
+	    box-shadow: 0 2px 2px #ababab;
+	    -moz-text-shadow: 1px 1px 2px #cecece;
+	    -webkit-text-shadow: 1px 1px 2px #cecece;
+	    text-shadow: 1px 1px 2px #cecece;
+	}
+	
+	.Item .Pad{
+	    margin: 10px 10px 0 10px;
+	    padding: 0;
+	    height: 75px;
+	    overflow: hidden;
+	}
+
+	.Item p {
+	    white-space: normal;
+	    padding: 0;
+	    margin: 0 0 5px;
+	    font-size: 11px;
+	    font-weight: normal;
+	    line-height: 120%;
+	}
+	
+	.Item .Icons {
+	    position: absolute;
+	    top: 0;
+	    right: 0;
+	    height: 19px;
+	}
+	
+	.Item .IconEdit {
+	    cursor: pointer;
+	    float: right;
+	    margin: 3px 5px 0 0;
+	    width: 19px;
+	    height: 19px;
+	    background: url('../images/edit-active.png') no-repeat;
+	}
+	
+	.Item .IconDelete {
+	    cursor: pointer;
+	    float: right;
+	    margin: 3px 5px 0 0;
+	    width: 19px;
+	    height: 19px;
+	    background: url('../images/delete-active.png') no-repeat;
+	}
+	
+	.Doc .IconMove {
+	    display: none;
+	}
+	
+	.Doc:hover .IconMove,
+	.IconMove {
+	    display: block;
+	    z-index: 11;
+	    position: absolute;
+	    top: -10px;
+	    left: -10px;
+	    width: 21px;
+	    height: 21px;
+	    background: url('../images/icon-move.png') no-repeat;
+	}
+	
+	.IconSub {
+	    z-index: 11;
+	    position: absolute;
+	    bottom: -18px;
+	    left: -20px;
+	    width: 73px;
+	    height: 61px;
+	    background: url('../images/icon-sub.png') no-repeat;
+	}
+	
+.EditDialog {
+    z-index: 40;
+}
+    
+    .EditDialog .EditFormDocument {
+	padding-bottom: 5px;
+    }
+    
+    .EditDialog .EditFormDocument .content {
+	font-weight: bold;
+    }
+    

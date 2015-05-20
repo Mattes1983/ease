@@ -1,0 +1,11 @@
+section#Inhalt .ImageBox {
+    margin: 0 0 10px;
+}
+
+aside#Teaser .ImageBox {
+    margin: 0 0 10px;
+}
+
+.ImageBox img {
+    display: block;
+}

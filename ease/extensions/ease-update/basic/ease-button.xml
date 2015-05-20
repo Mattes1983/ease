@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<buttons>
+    <level4>
+        <button>
+            <groupname>{Settings}</groupname>
+            <text>{CMSUpdate}</text>
+            <description>{CMSUpdate}</description>
+            <type>popup</type>
+            <paramname>type</paramname>
+            <paramvalue>update</paramvalue>
+        </button>
+    </level4>
+</buttons>

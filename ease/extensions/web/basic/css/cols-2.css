@@ -1,0 +1,26 @@
+.ElementBlock-50-50 {
+    display: block;
+    width: 100%;
+    margin: 5px 0 10px;
+}
+
+.ElementBlock-50-50 .Element1{
+    display: inline-block;
+    float: left;
+    width: 48%;
+    min-height: 20px;
+}
+
+.ElementBlock-50-50 .Element2 {
+    display: inline-block;
+    float: left;
+    width: 48%;
+    min-height: 20px;
+}
+
+.ElementBlock-50-50 .ElementSpace {
+    display: inline-block;
+    float: left;
+    width: 4%;
+    min-height: 20px;
+}

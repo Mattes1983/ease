@@ -1,0 +1,117 @@
+.Center {
+    position: absolute;
+    z-index: 10;
+    top: 60px;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}
+
+    .Center .Pad {
+	padding: 0;
+    }
+    
+.Top {
+    position: absolute;
+    top: 0;
+    left:0;
+    z-index: 12;
+    width: 100%;
+    height: 60px;
+    background-color: #585a5d;
+    -moz-box-shadow: 2px 3px 4px #666;
+    -webkit-box-shadow: 2px 3px 4px #666;
+    box-shadow: 2px 3px 4px #666;
+}
+
+    .Top .TopButtons {
+	float: right;
+	margin: 18px 20px 0 0;
+    }
+    
+.Left {
+    position: fixed;
+    left: 0;
+    z-index: 11;
+    width: 220px;
+    height: 100%;
+    background-color: #636467;
+    border-right: 2px #464444 solid;
+    font-family: Verdana;
+    font-size: 10px; 
+    line-height: 120%;
+    color: #464444;
+    font-weight: normal;
+    overflow: auto;
+}
+
+    .Left h1 {
+	display: block;
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 25px;
+	color: #fff;
+	display: block;
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	background: none;
+	border-radius: 0;
+	text-transform: none;
+	-moz-box-shadow: 0;
+	-webkit-box-shadow: 0;
+	box-shadow: none;
+	-moz-text-shadow: 0;
+	-webkit-text-shadow: 0;
+	text-shadow: none;
+    }
+
+    .Left .Pad {
+	padding: 10px 10px 10px 20px;
+    }
+    
+    .Left ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+    }
+	.Left ul ul {
+	    padding: 0 0 0 10px;
+	}
+    
+    .Left ul li {
+	margin: 0 0 3px 0;
+    }
+    
+    .Left ul a,
+    .Left ul a:link,
+    .Left ul a:visited,
+    .Left ul a:active,
+    .Left ul a:hover {
+	display: block;
+	height: 20px;
+	font-size: 11px;
+	line-height: 20px;
+	color: #fff;
+	text-decoration: none;
+	padding: 0 0 0 10px;
+	border-radius: 4px;
+    }
+    
+    .Left ul a.Active,
+    .Left ul a.Active:link,
+    .Left ul a.Active:visited,
+    .Left ul a.Active:active,
+    .Left ul a.Active:hover,
+    .Left ul a:hover {
+	background-color: #fff;
+	color: #000;
+    }
+    
+.Right {
+    margin-left: 224px;
+}
+
+    .Right .Pad {
+	padding: 10px 10px 10px 20px;
+    }

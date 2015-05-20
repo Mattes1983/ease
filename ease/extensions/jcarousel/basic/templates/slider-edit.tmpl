@@ -1,0 +1,98 @@
+<ease:edit edit="true" />
+<div id="JCarousel<ease:id />">
+    <div id="JCarouselNotEdit-<ease:id />">
+	<ul id="mycarousel<ease:id />" class="jcarousel-skin-ease">
+	    <ease:carouselimage />
+	</ul>
+    </div>
+</div>
+<div id="JCarouselEdit-<ease:id />" class="JCarouselEditDisplay">
+    <div class="JCarouselEdit">
+	<form name="JCarouselEditForm-<ease:id />" onSubmit="return false">
+	<input type="hidden" name="sizechange" value="0" />
+	<h1>{Settings1}</h1>
+	<p>{Settings2}</p>
+
+	<div class="JCarouselEditBlock">
+	    <div class="JCarouselEditLeft">{Slider-Width}:</div>
+	    <div class="JCarouselEditRight"><input name="JCsliderwidth" value="<ease:swidth />" onchange="document.forms['JCarouselEditForm-<ease:id />'].sizechange.value='1'" /></div>
+	    <div class="Clear"></div>
+	</div>
+
+	<div class="JCarouselEditBlock">
+	    <div class="JCarouselEditLeft">{Slider-Height}:</div>
+	    <div class="JCarouselEditRight"><input name="JCsliderheight" value="<ease:sheight />" onchange="document.forms['JCarouselEditForm-<ease:id />'].sizechange.value='1'" /></div>
+	    <div class="Clear"></div>
+	</div>
+
+	<div class="JCarouselEditBlock">
+	    <div class="JCarouselEditLeft">{Item-Width}:</div>
+	    <div class="JCarouselEditRight"><input name="JCitemwidth" value="<ease:iwidth />" onchange="document.forms['JCarouselEditForm-<ease:id />'].sizechange.value='1'" /></div>
+	    <div class="Clear"></div>
+	</div>
+
+	<div class="JCarouselEditBlock">
+	    <div class="JCarouselEditLeft">{Item-Height}:</div>
+	    <div class="JCarouselEditRight"><input name="JCitemheight" value="<ease:iheight />" onchange="document.forms['JCarouselEditForm-<ease:id />'].sizechange.value='1'" /></div>
+	    <div class="Clear"></div>
+	</div>
+
+	<div class="JCarouselEditBlock">
+	    <div class="JCarouselEditLeft">{Space}:</div>
+	    <div class="JCarouselEditRight"><input name="JCitemspace" value="<ease:ispace />" /></div>
+	    <div class="Clear"></div>
+	</div>
+
+	<div class="JCarouselEditBlock">
+	    <div class="JCarouselEditLeft">{Direction}:</div>
+	    <div class="JCarouselEditRight">
+		<select name="JCtype">
+		    <option value="horizontal">{Horizontal}</option>
+		    <option value="vertical" <ease:verticalselected />>{Vertical}</option>
+		</select>
+	    </div>
+	    <div class="Clear"></div>
+	</div>
+
+	<div class="JCarouselEditBlock">
+	    <div class="JCarouselEditLeft">{Wrap}:</div>
+	    <div class="JCarouselEditRight">
+		<select name="JCwrap">
+		    <option value="">{Circular}</option>
+		    <option value="nowrap" <ease:nowrapselected />>{NoWrap}</option>
+		</select>
+	    </div>
+	    <div class="Clear"></div>
+	</div>
+
+	<div class="JCarouselEditBlock">
+	    <div class="JCarouselEditLeft">{Scroll}:</div>
+	    <div class="JCarouselEditRight"><input name="JCscroll" value="<ease:scroll />" /></div>
+	    <div class="Clear"></div>
+	</div>
+	<div class="Clear"></div>
+
+	<div class="JCarouselEditBlock">
+	    <div class="JCarouselEditLeft">{AutoScroll}:</div>
+	    <div class="JCarouselEditRight">
+		<select name="JCautoscroll">
+		    <option value="0">{AutoScrollYes}</option>
+		    <option value="1" <ease:autoscrollnoselected />>{AutoScrollNo}</option>
+		</select></div>
+	    <div class="Clear"></div>
+	</div>
+	<div class="Clear"></div>
+
+	</form>
+
+	<h1>{Items1}</h1>
+	<p>{Items2}</p>
+
+	<div style="height:10px;"></div>
+
+    </div>
+
+    <ease:image />
+
+    <div class="JCarouselEdit">&nbsp;</div>
+</div>

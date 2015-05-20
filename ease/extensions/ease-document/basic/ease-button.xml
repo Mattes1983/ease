@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<buttons>
+    <level3>
+        <button>
+            <groupname>{Generate}</groupname>
+            <text>{GenerateOne}</text>
+            <description>{GenerateOne2}</description>
+            <type>popup</type>
+	    <popup_width>400</popup_width>
+	    <popup_height>150</popup_height>
+            <paramname>type</paramname>
+            <paramvalue>generate</paramvalue>
+        </button>
+        <button>
+            <groupname>{Generate}</groupname>
+            <text>{GenerateAll}</text>
+            <description>{GenerateAll2}</description>
+            <type>popup</type>
+	    <popup_width>400</popup_width>
+	    <popup_height>150</popup_height>
+            <paramname>type</paramname>
+            <paramvalue>generate_all</paramvalue>
+        </button>
+        <button>
+            <groupname>{Settings}</groupname>
+            <text>{SEO}</text>
+            <description>{SEOTitle}</description>
+            <type>popup</type>
+	    <popup_width>350</popup_width>
+	    <popup_height>450</popup_height>
+            <paramname>type</paramname>
+            <paramvalue>seo</paramvalue>
+        </button>
+        <button>
+            <groupname>{Actions}</groupname>
+            <text>{DeleteDoc}</text>
+            <description>{DeleteDocTitle}</description>
+            <type>popup</type>
+	    <popup_width>400</popup_width>
+	    <popup_height>350</popup_height>
+            <paramname>type</paramname>
+            <paramvalue>delete</paramvalue>
+        </button>
+    </level3>
+</buttons>

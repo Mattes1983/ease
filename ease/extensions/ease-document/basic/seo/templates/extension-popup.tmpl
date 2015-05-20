@@ -1,0 +1,35 @@
+<div class="BlackBackground"></div>
+<ease:message />
+<div class="Center">
+    <div class="Pad">
+
+	<form name="EditForm" method="post" enctype="multipart/form-data" action="../extension-popup.php?action=save">
+	    
+	    <h3>{AutoFileName}</h3>
+	    <p><input type="checkbox" name="autofilename" id="autofilename" value="1" class="Checkbox" <ease:autofilenamechecked /> /> <label for="autofilename">{AutoFileName2}</label></p>
+
+	    <h3>{AutoTitle}</h3>
+	    <p><input type="checkbox" name="autotitle" id="autotitle" value="1" class="Checkbox" <ease:autotitlechecked /> /> <label for="autotitle">{AutoTitle2}</label></p>
+
+	    <h3>{FileName}</h3>
+	    <p><input type="text" name="name" value="<ease:name />" class="Filename" /> <ease:suffix /></p>
+
+	    <h3>{Title}</h3>
+	    <p><input type="text" name="title" value="<ease:title />" /><br />
+	    <span class="TitleChars"></span></p>
+
+	    <h3>{Meta-Description}</h3>
+	    <p><textarea name="description"><ease:description /></textarea><br />
+	    <span class="DescriptionChars"></span></p>
+
+	    <h3>{Meta-Keywords}</h3>
+	    <p><textarea name="keywords" /><ease:keywords /></textarea></p>
+	</form>
+    </div>
+</div>
+
+<div class="Footer">
+    <div class="Pad">
+	<ease:footer />
+    </div>
+</div>

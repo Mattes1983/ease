@@ -1,0 +1,7 @@
+.TextBox hr.Teaser {
+    display: none;
+}
+
+aside#Teaser .TextBox hr.Teaser {
+    display: block;
+}

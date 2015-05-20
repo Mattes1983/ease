@@ -1,0 +1,26 @@
+.EASEFormInput {
+    margin-bottom: 10px;
+}
+
+.EASEFormInputTitle {
+    float: left;
+    width: 100px;
+}
+
+    .EASEFormInputTitle label {
+    }
+
+.EASEFormInputField {
+    margin-left: 100px;
+}
+
+    .EASEFormInputField input {
+    }
+
+    .EASEFormInputField input:focus {
+
+    }
+    
+.EASEFormErrorRequired input {
+    border: 1px #f00 solid;
+}

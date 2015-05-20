@@ -1,0 +1,10 @@
+<ease:edit editopenwindow="true" editopenwindowwidth="350" editopenwindowheight="450" />
+<div class="EASEFormSelect<?php if( $_EASEF<ease:parentid />->arrErrorFields['<ease:id />'] ) echo " EASEFormErrorRequired" ?>">
+    <div class="EASEFormSelectTitle"><label for="field<ease:id />"><ease:fieldname /><ease:required /></label></div>
+    <div class="EASEFormSelectField">
+	<select name="field<ease:id />" id="field<ease:id />">
+	    <ease:options />
+	</select>
+    </div>
+    <div class="Clear"></div>
+</div>

@@ -1,0 +1,768 @@
+/* Toolbox */
+#easeToolbox {
+    background-color: #6c7176;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 10;
+    overflow: hidden;
+    border-radius: 4px;   
+    font-family: Arial;
+    font-size: 13px; 
+    line-height: 120%;
+    color: #fff;
+    font-weight: normal;
+    cursor: default;
+    text-align: left;   
+    -moz-box-shadow: 2px 3px 3px #666;
+    -webkit-box-shadow: 2px 3px 3px #666;
+    box-shadow: 2px 3px 3px #666;
+}
+
+#easeToolbox .clear {
+    clear: both;
+    overflow: hidden;
+    height: 0;
+}
+
+#easeToolbox .Relative {
+    position: relative;
+}
+
+/* Modes */
+#easeResetbox div.easeMinimize * {
+    display: none;
+    visibility: hidden;
+}
+
+#easeResetbox div.easeMinimize {
+    cursor: pointer;
+    background: url('../images/button-minimize-recover.gif') no-repeat center center;
+    border: 1px transparent solid;
+    width: 20px;
+    height: 20px;
+}
+
+#easeResetbox div.easeNormal {
+    cursor: default;
+    border: 1px transparent solid;
+    width: 220px;
+    height: 467px;
+}
+
+#easeResetbox div.easeMaximize {
+    cursor: default;
+    border: 1px transparent solid;
+    width: 300px;
+    height: 100%;
+}
+
+#easeResetbox div.easeMinimize:hover {
+    border: 1px #fff solid;
+}
+
+#easeResetbox div.easeNormal:hover,
+#easeResetbox div.easeMaximize:hover {
+    border: 1px #fff solid;
+}
+
+/* Mode-Buttons */
+#easeResetbox div.easeMinimize .ButtonMode a.ButtonMinimize { display: none; }
+#easeResetbox div.easeNormal .ButtonMode a.ButtonNormal { display: none; }
+#easeResetbox div.easeMaximize .ButtonMode a.ButtonMaximize { display: none; }
+
+#easeToolbox .ButtonMode {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+    #easeToolbox .ButtonMode a.ButtonMinimize {
+	float: right;
+	width: 20px;
+	height: 20px;
+	background: url('../images/button-minimize.gif') no-repeat left top;
+	text-indent: -1000px;
+	color: transparent;
+    }
+    
+    #easeToolbox .ButtonMode a.ButtonNormal {
+	float: right;
+	width: 20px;
+	height: 20px;
+	background: url('../images/button-normal.gif') no-repeat left top;
+	text-indent: -1000px;
+	color: transparent;
+    }
+    
+    #easeToolbox .ButtonMode a.ButtonMaximize {
+	float: right;
+	width: 20px;
+	height: 20px;
+	background: url('../images/button-maximize.gif') no-repeat left top;
+	text-indent: -1000px;
+	color: transparent;
+    }
+    
+    #easeToolbox .ButtonMode a.Buttonlogout {
+	float: right;
+	width: 20px;
+	height: 20px;
+	background: url('../images/button-logout.gif') no-repeat left top;
+	text-indent: -1000px;
+	color: transparent;
+    }
+    
+    #easeToolbox .ButtonMode a.ButtonHelp {
+	float: right;
+	width: 20px;
+	height: 20px;
+	background: url('../images/button-help.gif') no-repeat left top;
+	text-indent: -1000px;
+	color: transparent;
+    }
+
+/* Search */
+#easeToolbox .Search {
+    margin: 15px 5px 0 5px;
+}
+
+#easeResetbox div.easeNormal .Search {
+    width: 200px;
+}
+
+#easeResetbox div.easeMaximize .Search {
+    width: 290px;
+}
+
+#easeToolbox .Search .Left {
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+
+#easeResetbox div.easeNormal .Search .Left {
+    width: 158px;
+}
+#easeResetbox div.easeMaximize .Search .Left {
+    width: 248px;
+}
+
+#easeToolbox .Search .Right {
+    width: 42px;
+    height: 23px;
+    float: left;
+}
+
+#easeResetbox div.easeNormal .Search input,
+#easeResetbox div.easeNormal .Search input:hover,
+#easeResetbox div.easeNormal .Search input:focus {
+    width: 157px;
+    height: 23px;
+    border: 0;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    color: #535353;
+    background-color: #fff;
+    font-size: 12px;
+    line-height: 23px;
+    outline: 0;
+    padding-left: 5px;
+}
+
+#easeResetbox div.easeMaximize .Search input,
+#easeResetbox div.easeMaximize .Search input:hover,
+#easeResetbox div.easeMaximize .Search input:focus {
+    width: 247px;
+    height: 23px;
+    border: 0;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    color: #535353;
+    background-color: #fff;
+    font-size: 12px;
+    line-height: 23px;
+    outline: 0;
+}
+
+#easeToolbox .Search .SearchButton {
+    width: 42px;
+    height: 23px;
+    background: url('../images/button-search.png') no-repeat;
+    cursor: pointer;
+}
+
+    #easeToolbox .Search .List {
+	display: none;
+	position: absolute;
+	z-index: 100;
+	top: -1px;
+	left: 0;
+	background-color: #fff;
+	border-radius: 4px;
+	-moz-box-shadow: 2px 3px 3px #666;
+	-webkit-box-shadow: 2px 3px 3px #666;
+	box-shadow: 2px 3px 3px #666;
+    }
+    
+    #easeResetbox div.easeNormal .Search .List {
+	width: 210px;
+    }
+    
+    #easeResetbox div.easeMaximize .Search .List {
+	width: 290px;
+    }
+    
+	#easeToolbox .Search .List ul {
+	    margin: 0;
+	    padding: 0;
+	}
+	
+	#easeToolbox .Search .List li {
+	    margin: 0;
+	    padding: 0;
+	}
+	
+	#easeToolbox .Search .List a,
+	#easeToolbox .Search .List a:link,
+	#easeToolbox .Search .List a:visited {
+	    display: block;
+	    padding: 3px 5px;
+	    text-decoration: none;
+	    font-size: 12px;
+	    font-weight: normal;
+	    line-height: 16px;
+	    color: #464444;
+	}
+	
+	#easeToolbox .Search .List a:active,
+	#easeToolbox .Search .List a:hover {
+	    color: #fff;
+	    background-color: #4a4c4e;
+	}
+	
+/* Buttons */
+#easeToolbox .ButtonGroup {
+    margin: 10px 0 0;
+    padding-left: 5px;
+    height: 30px;
+    background: url('../images/button-browse-bg.gif') repeat-x;
+}
+
+#easeToolbox .ButtonGroup .ButtonSpace {
+    display: inline-block;
+    float: left;
+    width: 2px;
+    height: 30px;
+    background: url('../images/button-browse-space.gif') no-repeat;
+    overflow: hidden;
+}
+
+#easeToolbox .ButtonGroup .ButtonBack {
+    float: left;
+    width: 23px;
+    height: 23px;
+    background: url('../images/button-browse-back-off.gif') no-repeat;
+    color: transparent;
+    text-indent: -1000px;
+}
+#easeToolbox .ButtonGroup .ButtonBack:hover {
+    background: url('../images/button-browse-back-on.gif') no-repeat;
+}
+
+#easeToolbox .ButtonGroup .ButtonNext {
+    float: left;
+    width: 23px;
+    height: 23px;
+    background: url('../images/button-browse-next-off.gif') no-repeat;
+    color: transparent;
+    text-indent: -1000px;
+}
+#easeToolbox .ButtonGroup .ButtonNext:hover {
+    background: url('../images/button-browse-next-on.gif') no-repeat;
+}
+
+#easeToolbox .ButtonGroup .ButtonNew {
+    float: left;
+    width: 23px;
+    height: 23px;
+    background: url('../images/button-browse-new-off.gif') no-repeat;
+    color: transparent;
+    text-indent: -1000px;
+}
+#easeToolbox .ButtonGroup .ButtonNew:hover {
+    background: url('../images/button-browse-new-on.gif') no-repeat;
+}
+
+#easeToolbox .ButtonGroup .ButtonStart {
+    float: left;
+    width: 23px;
+    height: 23px;
+    background: url('../images/button-browse-home-off.gif') no-repeat;
+    color: transparent;
+    text-indent: -1000px;
+}
+#easeToolbox .ButtonGroup .ButtonStart:hover {
+    background: url('../images/button-browse-home-on.gif') no-repeat;
+}
+#easeToolbox .ButtonGroup .ButtonReload {
+    float: left;
+    width: 23px;
+    height: 23px;
+    background: url('../images/button-browse-reload-off.gif') no-repeat;
+    color: transparent;
+    text-indent: -1000px;
+}
+
+#easeToolbox .ButtonGroup .ButtonReload:hover {
+    background: url('../images/button-browse-reload-on.gif') no-repeat;
+}
+/*
+#easeToolbox .ButtonGroup .ButtonBlack {
+    float: left;
+    margin: 0 4px 0 0;
+}
+
+#easeToolbox .ButtonBlack .ButtonCenter {
+    float: left;
+    height: 25px;
+    line-height: 25px;
+    background: none;
+    background: url('../images/button-center.png') repeat-x;
+}
+
+#easeToolbox .ButtonBlack .ButtonLeft {
+    float: left;
+    width: 5px;
+    height: 25px;
+    line-height: 25px;
+    background: url('../images/button-left.png') no-repeat 0 0;
+}
+
+#easeToolbox .ButtonBlack .ButtonRight {
+    float: left;
+    width: 5px;
+    height: 25px;
+    line-height: 25px;
+    background: url('../images/button-right.png') no-repeat right 0;
+}
+
+#easeToolbox .ButtonBlack .ButtonCenter a,
+#easeToolbox .ButtonBlack .ButtonCenter a:link,
+#easeToolbox .ButtonBlack .ButtonCenter a:visited,
+#easeToolbox .ButtonBlack .ButtonCenter a:active,
+#easeToolbox .ButtonBlack .ButtonCenter a:hover,
+#easeToolbox .ButtonBlack .ButtonCenter input {
+    width: auto;
+    height: 25px;
+    padding: 0 10px;
+    background: none;
+    border-radius: 0;
+    border: 0;
+    cursor: pointer;
+    color: #fff;
+    line-height: 25px;
+    text-decoration: none;
+}
+*/
+
+/* Headlines */
+#easeResetbox div.easeNormal h1 {
+    cursor: move;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 34px;
+    color: #4b4949;
+    display: block;
+    margin: 0;
+    padding: 0 0 0 10px;
+    background: url('../images/toolbox-h1-bg.png') repeat-x left top #7c8287;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    text-align: left;
+    text-transform: uppercase;
+    -moz-box-shadow: 0 3px 4px #595d61;
+    -webkit-box-shadow: 0 3px 4px #595d61;
+    box-shadow: 0 3px 4px #595d61;
+    -moz-text-shadow: 1px 1px 2px #cecece;
+    -webkit-text-shadow: 1px 1px 2px #cecece;
+    text-shadow: 1px 1px 2px #cecece;
+}
+
+#easeResetbox div.easeMaximize h1 {
+    cursor: default;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 34px;
+    color: #4b4949;
+    display: block;
+    margin: 0;
+    padding: 0 0 0 10px;
+    background: url('../images/toolbox-h1-bg.png') repeat-x left top #7c8287;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    text-align: left;
+    text-transform: uppercase;
+    -moz-box-shadow: 0 3px 4px #595d61;
+    -webkit-box-shadow: 0 3px 4px #595d61;
+    box-shadow: 0 3px 4px #595d61;
+    -moz-text-shadow: 1px 1px 2px #cecece;
+    -webkit-text-shadow: 1px 1px 2px #cecece;
+    text-shadow: 1px 1px 2px #cecece;
+}
+
+#easeToolbox  h2 {
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 120%;
+    margin: 10px 0 0 0;
+    padding: 0 0 1px;
+    color: #313434;
+}
+	
+#easeToolbox .ButtonNew a {
+    display: inline-block;
+    background: url(../images/new.png) no-repeat;
+    width: 20px;
+    height: 20px;
+    border: 0;
+    color: transparent;
+}
+#easeToolbox .ButtonNew a:hover {
+    background: url(../images/new-active.png) no-repeat;
+}
+
+/* Menu */
+#easeToolbox ul.Menu {
+    padding: 5px 5px 0;
+    margin: 0;
+    list-style-type: none; 
+}
+
+#easeToolbox ul.Menu li {
+    float: left;
+    padding: 0;
+    margin: 0 2px 0 0;
+}
+
+#easeToolbox ul.Menu a {
+    display: inline-block;
+    height: 23px;
+    padding: 0 2px;
+    margin: 0;
+    color: #fff;
+    text-decoration: none;
+    outline: none;
+    line-height: 23px;
+    background: url('../images/toolbar-menu-bg.png') repeat-x 0 0 #121314;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+#easeToolbox ul.Menu a.Active,
+#easeToolbox ul.Menu a:hover,
+#easeToolbox ul.Menu a:focus {
+    background: url('../images/toolbar-menu-bg-active.png') repeat-x 0 0 #9fa2a7;
+}
+
+#easeToolbox ul.Menu span.MenuButton1 {
+    width: 28px;
+    height: 23px;
+    display: block;
+    text-indent: -1000px;
+    color: transparent;
+    background: url('../images/button-menu-layout.gif') no-repeat center center;
+}
+#easeToolbox ul.Menu a.Active span.MenuButton1,
+#easeToolbox ul.Menu a:hover span.MenuButton1,
+#easeToolbox ul.Menu a:focus span.MenuButton1 {
+    background-image: url('../images/button-menu-layout-active.gif');
+}
+
+#easeToolbox ul.Menu span.MenuButton2 {
+    width: 28px;
+    height: 23px;
+    display: block;
+    text-indent: -1000px;
+    color: transparent;
+    background: url('../images/button-menu-content.gif') no-repeat center center;
+}
+#easeToolbox ul.Menu a.Active span.MenuButton2,
+#easeToolbox ul.Menu a:hover span.MenuButton2,
+#easeToolbox ul.Menu a:focus span.MenuButton2 {
+    background-image: url('../images/button-menu-content-active.gif');
+}
+
+#easeToolbox ul.Menu span.MenuButton3 {
+    width: 28px;
+    height: 23px;
+    display: block;
+    text-indent: -1000px;
+    color: transparent;
+    background: url('../images/button-menu-document.gif') no-repeat center center;
+}
+#easeToolbox ul.Menu a.Active span.MenuButton3,
+#easeToolbox ul.Menu a:hover span.MenuButton3,
+#easeToolbox ul.Menu a:focus span.MenuButton3 {
+    background-image: url('../images/button-menu-document-active.gif');
+}
+
+#easeToolbox ul.Menu span.MenuButton4 {
+    width: 28px;
+    height: 23px;
+    display: block;
+    text-indent: -1000px;
+    color: transparent;
+    background: url('../images/button-menu-cms.gif') no-repeat center center;
+}
+#easeToolbox ul.Menu a.Active span.MenuButton4,
+#easeToolbox ul.Menu a:hover span.MenuButton4,
+#easeToolbox ul.Menu a:focus span.MenuButton4 {
+    background-image: url('../images/button-menu-cms-active.gif');
+}
+
+/* Items */
+#easeToolbox .easeLvl {
+    display: none;
+    width: 100%;
+    height: 298px;
+    overflow: auto;
+    background: url('../images/toolbar-lvl-bg.png') repeat-x 0 0 #6c7176;
+}
+
+#easeToolbox div.Active {
+    display: block;
+}
+
+#easeToolbox .Item {
+    clear: both;
+    padding: 0;
+    margin: 0 5px;
+}
+
+/*
+#easeToolbox .Button {
+    float: left;
+    width: 44px;
+    height: 44px;
+    margin: 4px 4px 0 0;
+    padding: 0;
+    overflow: hidden;
+    color: #00abfe;
+    border: 0;
+    text-decoration: none;
+    outline: none;
+    font-size: 9px;
+    font-weight: bold;
+    line-height: 44px;
+    background: url('../images/button-off.png') no-repeat;
+    text-align: center;
+}
+
+#easeToolbox .Item a.Active,
+#easeToolbox a.Button:active,
+#easeToolbox a.Button:hover {
+    background: url('../images/button-on.png') no-repeat;
+}
+*/
+
+#easeToolbox a.Button {
+    float: left;
+    position: relative;
+    display: table;
+    width: 90px;
+    height: 36px;
+    margin: 0 6px 6px 0;
+    font-family: Verdana;
+    font-size: 10px;
+    line-height: 11px;
+    color: #fff;
+    background: url('../images/button.png') no-repeat;
+}
+#easeToolbox a.Button:hover span.Icon {
+    position: absolute;
+    width: 21px;
+    height: 21px;
+    top: 0px;
+    left: -3px;
+    background: url('../images/button-press-on.png') no-repeat;
+}
+#easeToolbox .Button span.Text {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    padding: 0 2px;
+}
+
+#easeToolbox a.Dragger {
+    cursor: move;
+}
+
+#easeToolbox a.Dragger:hover span.Icon {
+    position: absolute;
+    width: 21px;
+    height: 21px;
+    top: -3px;
+    left: -3px;
+    background: url('../images/button-dragger-on.png') no-repeat;
+}
+
+/*
+#easeToolbox a.Dragger {
+    float: left;
+    width: 90px;
+    height: 36px;
+    margin: 0 6px 6px 0;
+}
+#easeToolbox a.Dragger span {
+    cursor: move;
+    display: table;
+    width: 90px;
+    height: 36px;
+    background: url('../images/button-dragger-off.png') no-repeat;
+    font-family: Verdana;
+    font-size: 10px;
+    line-height: 12px;
+    color: #454545;
+}
+#easeToolbox a.Dragger:hover span {
+    background: url('../images/button-dragger-on.png') no-repeat;
+}
+#easeToolbox .Dragger span span {
+    display: table-cell;
+    vertical-align: middle;
+    width: auto;
+    height: auto;
+    padding-left: 31px;
+}
+
+#easeToolbox .ButtonText {
+    display: inline-block;
+    font-size: 9px;
+    font-weight: bold;
+    color: #00abfe;
+}
+
+#easeToolbox .Dragger {
+    cursor: move;
+    z-index: 20;
+}
+*/
+
+/* Action */
+#easeToolbox .Action {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    margin: 0;
+    background: url('../images/toolbar-footer-bg.png') repeat-x 0 0 #3b3d3e;
+}
+
+#easeToolbox .Action .Pad {
+    padding: 5px 5px 5px;
+}
+
+#easeToolbox .Action ul {    
+    margin: 0;
+    padding: 0;
+    list-style-type: none; 
+}
+
+#easeToolbox .Action li {
+    float: left;
+    padding: 0 2px 0 0;
+    margin: 0;
+}
+
+#easeToolbox .Action a {
+    display: inline-block;
+    padding: 0;
+    margin: 0 2px;
+    background-color: #097dff;
+    color: #fff;
+    border: 1px #494949 solid;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    text-decoration: none;
+    outline: none;
+}
+
+#easeToolbox .Action a.Active,
+#easeToolbox .Action a:active,
+#easeToolbox .Action a:hover {
+    background-color: #54ae67;
+}
+
+#easeToolbox .Action li.ButtonEdit a {
+    background: url(../images/edit.png) no-repeat;
+    width: 19px;
+    height: 19px;
+    border: 0;
+    color: transparent;
+    text-indent: -1000px;
+}
+
+#easeToolbox .Action li.ButtonEdit a.Active {
+    background: url(../images/edit-active.png) no-repeat;
+}
+
+#easeToolbox .Action li.ButtonMove a {
+    background: url(../images/move.png) no-repeat;
+    width: 19px;
+    height: 19px;
+    border: 0;
+    color: transparent;
+    text-indent: -1000px;
+}
+#easeToolbox .Action li.ButtonMove a.Active {
+    background: url(../images/move-active.png) no-repeat;
+}
+
+#easeToolbox .Action li.ButtonDelete a {
+    background: url(../images/delete.png) no-repeat;
+    width: 19px;
+    height: 19px;
+    border: 0;
+    color: transparent;
+    text-indent: -1000px;
+}
+#easeToolbox .Action li.ButtonDelete a.Active {
+    background: url(../images/delete-active.png) no-repeat;
+}
+
+#easeToolbox .Action li.ButtonLinkInfo a {
+    background: url(../images/info.png) no-repeat;
+    width: 19px;
+    height: 19px;
+    border: 0;
+    color: transparent;
+    text-indent: -1000px;
+}
+#easeToolbox .Action li.ButtonLinkInfo a.Active {
+    background: url(../images/info-active.png) no-repeat;
+}
+
+#easeToolbox .Action li.ButtonCopy a {
+    background: url(../images/copy.png) no-repeat;
+    width: 19px;
+    height: 19px;
+    border: 0;
+    color: transparent;
+    text-indent: -1000px;
+}
+#easeToolbox .Action li.ButtonCopy a.Active {
+    background: url(../images/copy-active.png) no-repeat;
+}
+
+#easeToolbox .Action li.ButtonJoin a {
+    background: url(../images/join.png) no-repeat;
+    width: 19px;
+    height: 19px;
+    border: 0;
+    color: transparent;
+    text-indent: -1000px;
+}
+#easeToolbox .Action li.ButtonJoin a.Active {
+    background: url(../images/join-active.png) no-repeat;
+}

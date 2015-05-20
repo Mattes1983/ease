@@ -1,0 +1,10 @@
+<ease:edit edit="false" move="false" drop="false" delete="false" />
+<div class="EASEFormCaptcha<?php if( $_EASEF<ease:parentid />->arrErrorFields['captcha'] ) echo " EASEFormErrorRequired" ?>">
+    <div class="EASEFormCaptchaTitle"><label>{Captcha1} *</label></div>
+    <div class="EASEFormCaptchaField">
+	<input type="text" name="captcha" />
+	<p>{Captcha2}</p>
+	<img src="<ease:captchaurl />" alt="{Captcha1}"><br />
+    </div>
+    <div class="Clear"></div>
+</div>

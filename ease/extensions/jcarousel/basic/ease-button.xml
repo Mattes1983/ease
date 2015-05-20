@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<buttons>
+    <level2>
+        <button>
+            <groupname>{ContentElements}</groupname>
+            <text>{Slider}</text>
+            <description>{ContentSlider2}</description>
+            <type>drag</type>
+        </button>
+    </level2>
+</buttons>

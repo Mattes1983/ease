@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<languages>
+    <language index="en">
+	<label index="Close">Close</label>
+	<label index="Settings">Settings</label>
+	<label index="CMSUpdate">CMS-Update</label>
+    </language>
+    <language index="de">
+	<label index="Close">Schließen</label>
+	<label index="Settings">Einstellungen</label>
+	<label index="CMSUpdate">CMS-Update</label>
+    </language>
+</languages>

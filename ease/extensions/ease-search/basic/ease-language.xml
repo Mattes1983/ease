@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<languages>
+    <language index="en">
+	<label index="Search">search</label>
+	<label index="Search1">Search</label>
+	<label index="Search2">Results for </label>
+	<label index="SearchField">Search field</label>
+	<label index="SearchField2">The search box for the search query</label>
+	<label index="Result">Result</label>
+	<label index="NoResult">No Pages found</label>
+	<label index="Settings1">Settings</label>
+	<label index="Settings2">Here you can make settings for display.</label>
+	<label index="MaxPerPage">max. results per page</label>
+	<label index="HeadlineLength">max. length of headline</label>
+	<label index="TextLength">max. length of text</label>
+	<label index="PagingSpace">max. pages before and after</label>
+    </language>
+    <language index="de">
+	<label index="Search">Suchen</label>
+	<label index="Search1">Suche</label>
+	<label index="Search2">Suchergebnisse für den Begriff</label>
+	<label index="SearchField">Suchfeld</label>
+	<label index="SearchField2">Das Suchfeld für die Suchanfrage</label>
+	<label index="Result">Suchergebnis</label>
+	<label index="NoResult">Keine Seiten gefunden</label>
+	<label index="Settings1">Einstellungen</label>
+	<label index="Settings2">Hier können Sie Einstellungen zur Darstellung vornehmen.</label>
+	<label index="MaxPerPage">max. Ergebnisse pro Seite</label>
+	<label index="HeadlineLength">max. Länge der Überschrift</label>
+	<label index="TextLength">max. Länge des Textes</label>
+	<label index="PagingSpace">max. Anzahl Seiten vor und nach der Aktuellen</label>
+    </language>
+</languages>

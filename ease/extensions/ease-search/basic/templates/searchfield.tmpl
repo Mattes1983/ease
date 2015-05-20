@@ -1,0 +1,9 @@
+<ease:edit edit="false" move="true" join="true" copy="true" delete="true" />
+<div class="SearchField">
+    <div class="SearchFieldList"></div>
+    <form name="searchfieldform" action="<ease:resulturl />" method="post">
+	<input type="text" name="EASESearchField" value="<?php if( $_SESSION['EASESearch']['searchfield'] ) echo stripslashes( $_SESSION['EASESearch']['searchfield'] ); else echo "Suche"; ?>" onfocus="if(this.value=='Suche')this.value=''" onblur="if(this.value=='')this.value='Suche'" class="Textbox" />
+	<input type="submit" name="EASESearchSubmit" value="{Search}" class="SubmitButton" />
+    </form>
+    <div class="Clear"></div>
+</div>

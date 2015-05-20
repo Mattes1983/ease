@@ -1,0 +1,77 @@
+<div id="EASEFormEdit-<ease:id />" class="EASEFormEditDisplay">
+    <div class="EASEFormEdit">
+	<form name="EASEFormEditForm-<ease:id />" onSubmit="return false">
+	<h1>{Settings1}</h1>
+	<div class="Pad">
+
+	    <p>{Settings2}</p>
+
+	    <div class="EASEFormEditBlock">
+		<div class="EASEFormEditLeft">{FormName}:</div>
+		<div class="EASEFormEditRight"><input name="formname" value="<ease:formname />" /></div>
+		<div class="Clear"></div>
+	    </div>
+
+	    <div class="EASEFormEditBlock">
+		<div class="EASEFormEditLeft">{EmailRecipient}:</div>
+		<div class="EASEFormEditRight"><input name="emailrecipient" value="<ease:emailrecipient />" /></div>
+		<div class="Clear"></div>
+	    </div>
+
+	    <div class="EASEFormEditBlock">
+		<div class="EASEFormEditLeft">{EmailFrom}:</div>
+		<div class="EASEFormEditRight"><input name="emailfrom" value="<ease:emailfrom />" /></div>
+		<div class="Clear"></div>
+	    </div>
+
+	    <div class="EASEFormEditBlock EASEFormEditTextarea">
+		<div class="EASEFormEditLeft">{MessageSuccess}:</div>
+		<div class="EASEFormEditRight"><textarea name="messagesuccess"><ease:messagesuccess /></textarea></div>
+		<div class="Clear"></div>
+	    </div>
+
+	    <div class="EASEFormEditBlock EASEFormEditTextarea">
+		<div class="EASEFormEditLeft">{MessageError}:</div>
+		<div class="EASEFormEditRight"><textarea name="messageerror"><ease:messageerror /></textarea></div>
+		<div class="Clear"></div>
+	    </div>
+
+	    <div class="EASEFormEditBlock EASEFormEditTextarea">
+		<div class="EASEFormEditLeft">{MessageErrorRequired}:</div>
+		<div class="EASEFormEditRight"><textarea name="messageerrorrequired"><ease:messageerrorrequired /></textarea></div>
+		<div class="Clear"></div>
+	    </div>
+
+	    <div class="EASEFormEditBlock EASEFormEditTextarea">
+		<div class="EASEFormEditLeft">{MessageErrorCaptcha}:</div>
+		<div class="EASEFormEditRight"><textarea name="messageerrorcaptcha"><ease:messageerrorcaptcha /></textarea></div>
+		<div class="Clear"></div>
+	    </div>
+
+	</div>
+
+	<div class="Clear"></div>
+
+	</form>
+
+	<h1>{Fields1}</h1>
+
+	<div class="Pad">
+	    <p>{Fields2}</p>
+	</div>
+    </div>
+
+    <ease:fields />
+    <div class="EASEFormEdit">&nbsp;</div>
+</div>
+<div id="EASEFormNotEdit-<ease:id />">
+    <form name="Form-<ease:id />" method="post">
+	<input type="hidden" name="form" value="<ease:id />" />
+	<ease:fields2 />
+	<ease:captcha extension="EASEForm" param_name="item" param_value="captcha" edit="false" move="false" drop="false" />
+	<div class="EASEFormSubmit">
+	    <input type="reset" value="{Reset}" />
+	    <input type="submit" value="{Send}" />
+	</div>
+    </form>
+</div>

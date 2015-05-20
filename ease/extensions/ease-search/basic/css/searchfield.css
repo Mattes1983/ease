@@ -1,0 +1,30 @@
+/* Suche */
+.SearchField {
+    margin: 0;
+    padding: 0;
+}
+
+.SearchField form {
+    margin: 0;
+    padding: 0;
+}
+
+.SearchField .Textbox {
+    float: left;
+    display: inline-block;
+    width: 100px;
+    height: 20px;
+    line-height: 20px;
+}
+.SearchField .SubmitButton {
+    float: left;
+    display: inline-block;
+    width: auto;
+    height: auto;
+    line-height: 20px;
+}
+
+.SearchField .SubmitButton:hover,
+.SearchField .SubmitButton:focus {
+
+}

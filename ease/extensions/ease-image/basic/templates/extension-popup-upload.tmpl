@@ -1,0 +1,33 @@
+<div class="Dialog UploadDialog">
+    <div class="DialogTop">
+	<h1>{Upload1}</h1>
+	<div class="Pad">
+	    <form name="upload" method="post" enctype="multipart/form-data" action="../extension-popup.php?action=upload">
+		<input type="hidden" name="group" />
+		<h3>{Upload2}</h3>
+		<p><input type="file" name="file" /></p>
+		<h3>{Upload3}</h3>
+		<p><textarea name="keywords"></textarea></p>
+	    </form>
+	</div>
+    </div>
+    <div class="DialogFooter">
+	<div class="Pad">
+	    <div class="ButtonBlack">
+		<div class="ButtonLeft"></div><div class="ButtonCenter"><a href="javascript:;" onclick="fctDoUpload();" class="Button"><span class="ButtonText">{Upload}</span></a></div><div class="ButtonRight"></div>
+	    </div>
+	    <div class="ButtonBlack">
+		<div class="ButtonLeft"></div><div class="ButtonCenter"><a href="javascript:;" onclick="fctCloseUpload()" class="Button"><span class="ButtonText">{Close}</span></a></div><div class="ButtonRight"></div>
+	    </div>
+	</div>
+    </div>
+</div>
+<div class="Dialog UploadDialog2">
+    <div class="DialogTop">
+	<h1>{Upload4}</h1>
+	<div class="Pad">
+	    {Upload5}
+	</div>
+    </div>
+    <div class="DialogFooter">&nbsp;</div>
+</div>

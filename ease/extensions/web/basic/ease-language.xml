@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<languages>
+    <language index="en">
+	<label index="Layouts">Layouts</label>
+	<label index="Startpage">Startpage</label>
+	<label index="ContentElements">Content-Elements</label>
+	<label index="Text1">Textfield</label>
+	<label index="Text2">A text field that is variable in size.</label>
+	<label index="Image1">Image</label>
+	<label index="Image2">An image that is variable in size.</label>
+	<label index="ImageLink1">Image link</label>
+	<label index="ImageLink2">An image link that is variable in size.</label>
+	<label index="StructureElements">Structure elements</label>
+	<label index="Cols-2">Two columns</label>
+	<label index="Cols-3">Three columns</label>
+	<label index="EditMenu">edit menu</label>
+    </language>
+    <language index="de">
+	<label index="Layouts">Layouts</label>
+	<label index="Startpage">Startseite</label>
+	<label index="ContentElements">Inhalts-Elemente</label>
+	<label index="Text1">Textfeld</label>
+	<label index="Text2">Ein Textfeld das in der Größe variabel ist.</label>
+	<label index="Image1">Bild</label>
+	<label index="Image2">Ein Bild das in der Größe variabel ist.</label>
+	<label index="ImageLink1">Bild-Link</label>
+	<label index="ImageLink2">Ein Bild-Link der in der Größe variabel ist.</label>
+	<label index="StructureElements">Struktur-Elemente</label>
+	<label index="Cols-2">Zweispaltig</label>
+	<label index="Cols-3">Dreispaltig</label>
+	<label index="EditMenu">Navigation bearbeiten</label>
+    </language>
+</languages>

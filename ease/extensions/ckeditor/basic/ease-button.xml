@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<buttons>
+    <level2>
+        <button>
+            <groupname>{ContentElements}</groupname>
+            <text>{TextField}</text>
+            <description></description>
+            <type>drag</type>
+        </button>
+    </level2>
+</buttons>

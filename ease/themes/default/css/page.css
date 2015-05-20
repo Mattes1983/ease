@@ -1,0 +1,158 @@
+.easeDrag { 
+    margin: 0;
+    padding: 10px;
+    position: absolute;
+    width: auto;
+    max-width: 500px;
+    min-width: 100px;
+    height: auto;
+    display: none;
+    z-index: 99999;
+    border: 1px #6c7176 solid;
+    background-color: #fff;
+    -moz-box-shadow: 2px 3px 3px #666;
+    -webkit-box-shadow: 2px 3px 3px #666;
+    box-shadow: 2px 3px 3px #666;
+    overflow: hidden;
+}
+
+.easeEditBox {
+    background-color: transparent;
+}
+
+.easeEditBoxActive {
+    z-index: 99998;
+    position: relative;
+    margin: -4px;
+    border: 4px #ababab dashed;
+    border-radius: 6px;
+}
+
+.easeDrop { 
+    z-index: 99998;
+    position: relative;
+    margin: 0x -4px;
+    padding: 0;
+    min-height: 30px;
+    display: none;
+    border-radius: 6px;
+    border: 4px #ababab dashed;
+    overflow: hidden;
+}
+
+.easeDrop2 { 
+    margin: 0;
+    padding: 0;
+    min-height: 30px;
+    border: 0;
+}
+
+.easeMove { 
+    display: none;
+    margin: 0;
+    padding: 0;
+    width: 19px;
+    height: 19px;
+    background: url("../images/move-active.png") no-repeat;
+    border: 0;
+    cursor: move;
+}
+
+body .easeNotMove {
+    display: none;
+}
+
+.easeDelete { 
+    display: none;
+    margin: 0;
+    padding: 0;
+    width: 19px;
+    height: 19px;
+    background: url("../images/delete-active.png") no-repeat;
+    border: 0;
+    cursor: pointer;
+}
+
+.easeEdit,
+.easeEdit3 { 
+    display: none;
+    margin: 0;
+    padding: 0;
+    width: 19px;
+    height: 19px;
+    background: url("../images/edit-active.png") no-repeat;
+    border: 0;
+    cursor: pointer;
+}
+
+.easeEdit2 { 
+    display: none;
+    margin: 0;
+    padding: 0;
+    width: 19px;
+    height: 19px;
+    background: url("../images/save.png") no-repeat;
+    border: 0;
+    cursor: pointer;
+}
+
+.easeCopy { 
+    display: none;
+    margin: 0;
+    padding: 0;
+    width: 19px;
+    height: 19px;
+    background: url("../images/copy-active.png") no-repeat;
+    border: 0;
+    cursor: pointer;
+}
+
+.easeCopyDrop { 
+    display: none;
+    margin: 0;
+    padding: 0;
+    width: 19px;
+    height: 19px;
+    background: url("../images/copydrop-active.png") no-repeat;
+    border: 0;
+    cursor: pointer;
+}
+
+.easeJoin { 
+    display: none;
+    margin: 0;
+    padding: 0;
+    width: 19px;
+    height: 19px;
+    background: url("../images/join-active.png") no-repeat;
+    border: 0;
+    cursor: pointer;
+}
+
+.easeJoinDrop { 
+    display: none;
+    margin: 0;
+    padding: 0;
+    width: 19px;
+    height: 19px;
+    background: url("../images/joindrop-active.png") no-repeat;
+    border: 0;
+    cursor: pointer;
+}
+
+.easeRelated {
+    margin: -4px -4px 8px -4px;
+    border: 4px #63326b dashed;
+    border-radius: 6px;
+    z-index: 9997;
+}
+
+.easeInfobox {
+    display: inline-block;
+    margin: -2px;
+    padding: 5px;
+    background: #000;
+    border: 2px #fff solid;
+    border-radius: 6px;
+    color: #fff;
+}

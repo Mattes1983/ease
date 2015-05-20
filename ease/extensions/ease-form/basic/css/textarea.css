@@ -1,0 +1,25 @@
+.EASEFormTextarea {
+    margin-bottom: 10px;
+}
+
+.EASEFormTextareaTitle {
+    float: left;
+    width: 100px;
+}
+
+    .EASEFormTextareaTitle label {
+    }
+
+.EASEFormTextareaField {
+    margin-left: 100px;
+}
+
+    .EASEFormTextareaField textarea {
+    }
+
+    .EASEFormTextareaField textarea:focus {
+    }
+    
+.EASEFormErrorRequired textarea {
+    border: 1px #f00 solid;
+}

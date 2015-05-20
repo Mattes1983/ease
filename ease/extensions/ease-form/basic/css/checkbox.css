@@ -1,0 +1,41 @@
+.EASEFormCheckbox {
+    margin-bottom: 10px;
+}
+
+.EASEFormCheckboxTitle {
+    float: left;
+    width: 100px;
+}
+
+    .EASEFormCheckboxTitle label {
+    }
+
+.EASEFormCheckboxField {
+    margin-left: 100px;
+}
+
+    .EASEFormCheckboxFieldParts {
+	display: inline-block;
+	margin: 0 10px 0 0;
+	padding: 5px;
+    }
+
+    .EASEFormCheckboxFieldParts input {
+	float: left;
+	border: 0;
+	width: auto;
+	height: auto;
+	cursor: pointer;
+    }
+
+    .EASEFormCheckboxFieldParts input:focus {
+    }
+    
+    .EASEFormCheckboxFieldParts label {
+	margin-left: 25px;
+	display: block;
+    }
+    
+.EASEFormErrorRequired .EASEFormCheckboxFieldParts input {
+    border: 1px #f00 solid;
+}

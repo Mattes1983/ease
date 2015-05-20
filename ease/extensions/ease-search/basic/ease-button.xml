@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<buttons>
+    <level2>
+        <button>
+            <groupname>{Search1}</groupname>
+            <text>{SearchField}</text>
+            <description>{SearchField}</description>
+            <type>drag</type>
+            <paramname>item</paramname>
+            <paramvalue>searchfield</paramvalue>
+        </button>
+        <button>
+            <groupname>{Search1}</groupname>
+            <text>{Result}</text>
+            <description>{Result}</description>
+            <type>drag</type>
+            <paramname>item</paramname>
+            <paramvalue>result</paramvalue>
+        </button>
+    </level2>
+</buttons>

@@ -1,0 +1,41 @@
+.EASEFormRadio {
+    margin-bottom: 10px;
+}
+
+.EASEFormRadioTitle {
+    float: left;
+    width: 100px;
+}
+
+    .EASEFormRadioTitle label {
+    }
+
+.EASEFormRadioField {
+    margin-left: 100px;
+}
+
+    .EASEFormRadioFieldParts {
+	display: inline-block;
+	margin: 0 10px 0 0;
+	padding: 5px;
+    }
+
+    .EASEFormRadioFieldParts input {
+	float: left;
+	border: 0;
+	width: auto;
+	height: auto;
+	cursor: pointer;
+    }
+
+    .EASEFormRadioFieldParts input:focus {
+    }
+    
+    .EASEFormRadioFieldParts label {
+	margin-left: 25px;
+	display: block;
+    }
+    
+.EASEFormErrorRequired .EASEFormRadioFieldParts input {
+    border: 1px #f00 solid;
+}

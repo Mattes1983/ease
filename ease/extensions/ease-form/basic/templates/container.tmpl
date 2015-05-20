@@ -1,0 +1,13 @@
+<?php if( $_EASEF<ease:id />->boolSave == false ) { ?>
+<form name="Formular-<ease:id />" method="post">
+    <div class="EASEFormMessage"><ease:message /></div>
+    <ease:fields />
+    <ease:captcha extension="EASEForm" param_name="item" param_value="captcha" edit="false" move="false" drop="false" />
+    <div class="EASEFormSubmit">
+	<input type="reset" value="{Reset}" />
+	<input type="submit" value="{Send}" />
+    </div>
+</form>
+<?php } else { ?>
+<ease:message />
+<?php } ?>

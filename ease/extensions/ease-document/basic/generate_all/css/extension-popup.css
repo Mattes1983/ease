@@ -1,0 +1,30 @@
+.LoadingBG {
+    height: 12px;
+    background: url('../images/loading-bg.png') repeat-x;
+    padding: 1px;
+    margin-bottom: 10px;
+}
+
+.Loading {
+    width: 0;
+    overflow: hidden;
+    height: 10px;
+    background: url('../images/loading.png') repeat-x;
+}
+
+.LoadingDone {
+    background: url('../images/loading-done.png') repeat-x;
+}
+    
+.Loaded {
+    display: none;
+}
+
+.Percent {
+    text-align: center;
+    font-size: 16px;
+    font-weight: normal;
+    -moz-text-shadow: 1px 1px 2px #cecece;
+    -webkit-text-shadow: 1px 1px 2px #cecece;
+    text-shadow: 1px 1px 2px #cecece;
+}

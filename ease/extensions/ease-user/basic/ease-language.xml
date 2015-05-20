@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<languages>
+    <language index="en">
+	<label index="Settings">Settings</label>
+	<label index="LoginData">Login-Data</label>
+	<label index="UserData">User-Data</label>
+	<label index="User1">CMS-User</label>
+	<label index="User2">Here you can edit the CMS-User</label>
+	<label index="Error">Error</label>
+	<label index="Error2">Unfortunately an error has occurred. Please try again.</label>
+	<label index="Ok">Ok</label>
+	<label index="Save">Save</label>
+	<label index="Save2">Data has been saved successfully</label>
+	<label index="New">Create new User</label>
+	<label index="DeleteUser">Delete user</label>
+	<label index="DeleteUser2">Do you want to delete the user?</label>
+	<label index="DeleteUser3">The user was successfully deleted</label>
+	<label index="Login">Login</label>
+	<label index="Login2">Please fill in the login box</label>
+	<label index="Login3">The login-name already exists</label>
+	<label index="Password1">Password</label>
+	<label index="Password2">Password (Retype)</label>
+	<label index="Password3">The passwords are not identical</label>
+	<label index="Password4">Please fill in the password field</label>
+	<label index="Yes">Yes</label>
+	<label index="No">No</label>
+	<label index="Admin1">Administrator?</label>
+	<label index="Admin2">Yes</label>
+	<label index="Language">Language</label>
+	<label index="Theme">Theme</label>
+	<label index="Firstname">Firstname</label>
+	<label index="Lastname">Lastname</label>
+	<label index="Email">eMail</label>
+    </language>
+    <language index="de">
+	<label index="Settings">Einstellungen</label>
+	<label index="LoginData">Login-Daten</label>
+	<label index="UserData">Persönliche Daten</label>
+	<label index="User1">CMS-Benutzer</label>
+	<label index="User2">Hier können Sie die CMS-Benutzer bearbeiten</label>
+	<label index="Error">Fehler</label>
+	<label index="Error2">Leider ist ein Fehler aufgetreten. bitte versuchen Sie es noch einmal.</label>
+	<label index="Ok">Ok</label>
+	<label index="Save">Speichern</label>
+	<label index="Save2">Daten wurden erfolgreich gespeichert</label>
+	<label index="New">Neuen Benutzer anlegen</label>
+	<label index="DeleteUser">Benutzer löschen</label>
+	<label index="DeleteUser2">Wollen Sie den Benutzer wirklich löschen?</label>
+	<label index="DeleteUser3">Der Benutzer wurder erfolgreich gelöscht</label>
+	<label index="Login">Login-Name</label>
+	<label index="Login2">Sie müssen einen Login-Namen angeben.</label>
+	<label index="Login3">Der Login-Name existiert bereits.</label>
+	<label index="Password1">Passwort</label>
+	<label index="Password2">Passwort (Wiederholen)</label>
+	<label index="Password3">Die Passwörter sind nicht identisch.</label>
+	<label index="Password4">Bitte füllen Sie das Passwort-Feld aus.</label>
+	<label index="Yes">Ja</label>
+	<label index="No">Nein</label>
+	<label index="Admin1">Administrator?</label>
+	<label index="Admin2">Ja</label>
+	<label index="Language">Sprache</label>
+	<label index="Theme">Theme</label>
+	<label index="Firstname">Vorname</label>
+	<label index="Lastname">Nachname</label>
+	<label index="Email">E-Mail</label>
+    </language>
+</languages>

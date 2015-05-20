@@ -1,0 +1,24 @@
+<div class="BlackBackground"></div>
+<ease:message />
+<div class="Center">
+    <div class="Pad">
+
+	<form name="EditForm" method="post" enctype="multipart/form-data" onsubmit="return false">
+
+	    <h3>{FieldName}</h3>
+	    <p><input type="text" name="fieldname" value="<ease:fieldname />" /></p>
+
+	    <ease:value />
+
+	    <h3>{Required}</h3>
+	    <p><input type="checkbox" name="required" id="required" class="Checkbox" value="1" <ease:required /> /> <label for="required">{Required2}</label></p>
+
+	</form>
+    </div>
+</div>
+
+<div class="Footer">
+    <div class="Pad">
+	<ease:footer />
+    </div>
+</div>

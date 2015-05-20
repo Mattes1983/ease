@@ -1,0 +1,31 @@
+<div class="BlackBackground"></div>
+<ease:message />
+<ease:upload />
+<ease:preview />
+<div class="Top">
+    <div class="TopButtons ButtonBlack">
+        <div class="ButtonLeft"></div><div class="ButtonCenter"><span class="ButtonText"><select name="ViewType" onchange="fctShowType(this)"><option value="1">{Pages}</option><option value="2"<?php if( $_SESSION['easevars']['easelink']['viewtype'] == "2" ) echo " selected"; ?>>{Files}</option></select></span></div>
+    </div>
+    <div class="TypeFiles TopButtons ButtonBlack" <?php if( $_SESSION['easevars']['easelink']['viewtype'] == "2" ) echo " style='display:block;'"; ?>>
+        <div class="ButtonLeft"></div><div class="ButtonCenter"><a href="javascript:;" onclick="fctOpenUpload()" class="Button"><span class="ButtonText">{NewFile}</span></a></div><div class="ButtonRight"></div>
+    </div>
+    <form name="formSearch" onsubmit="return false">
+	<div class="Left"><input type="text" name="search" value="<ease:searchvalue />" onfocus="if(this.value=='{Search}')this.value=''" onblur="if(this.value=='')this.value='{Search}'" onkeyup="fctPreSearch()" /></div>
+	<div class="Right SearchButton" onclick="fctPreSearch()" title="{Search}"></div>
+    </form>
+</div>
+
+<div class="Center">
+    <div class="Pad">
+	
+    </div>
+</div>
+
+<div class="Footer">
+    <div class="Pad">
+	<ease:footer />
+    </div>
+</div>
+<script type="text/javascript">
+    intType = "<?php if( $_SESSION['easevars']['easelink']['viewtype'] == "2" ) echo "2"; else echo "1"; ?>";
+</script>

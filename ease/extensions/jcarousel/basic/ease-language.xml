@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<languages>
+    <language index="en">
+	<label index="Close">Close</label>
+	<label index="Save">Save</label>
+	<label index="ContentElements">Content-Elements</label>
+	<label index="Slider">IChannel</label>
+	<label index="ContentSlider1">Content Slider</label>
+	<label index="ContentSlider2">Insert a Content-Slider</label>
+	<label index="Settings1">Slider - Settings</label>
+	<label index="Settings2">Here you can make settings for display.</label>
+	<label index="Slider-Width">IChannel-Width</label>
+	<label index="Slider-Height">IChannel-Height</label>
+	<label index="Item-Width">Item-Width</label>
+	<label index="Item-Height">Item-Height</label>
+	<label index="Space">Space</label>
+	<label index="Direction">Direction</label>
+	<label index="Horizontal">horizontal</label>
+	<label index="Vertical">vertical</label>
+	<label index="Wrap">Wrap</label>
+	<label index="Circular">Circular</label>
+	<label index="NoWrap">NoWrap</label>
+	<label index="Scroll">Scroll</label>
+	<label index="AutoScroll">Automatic Scrolling</label>
+	<label index="AutoScrollYes">Yes</label>
+	<label index="AutoScrollNo">No</label>
+	<label index="Items1">Slider - Items</label>
+	<label index="Items2">Here you can drag the items you want to view:</label>
+	<label index="NoImage">No image found</label>
+	<label index="Preview">Preview</label>
+    </language>
+    <language index="de">
+	<label index="Close">Schließen</label>
+	<label index="Save">Speichern</label>
+	<label index="ContentElements">Inhalts-Elemente</label>
+	<label index="Slider">IChannel</label>
+	<label index="ContentSlider1">Container / Rahmen</label>
+	<label index="ContentSlider2">Ein IChannel-Rahmen für die Startseite</label>
+	<label index="Settings1">IChannel - Einstellungen</label>
+	<label index="Settings2">Hier können Sie Einstellungen zur Darstellung vornehmen.</label>
+	<label index="Slider-Width">IChannel-Breite</label>
+	<label index="Slider-Height">IChannel-Höhe</label>
+	<label index="Item-Width">Element-Breite</label>
+	<label index="Item-Height">Element-Höhe</label>
+	<label index="Space">Abstand</label>
+	<label index="Direction">Richtung</label>
+	<label index="Horizontal">horizontal</label>
+	<label index="Vertical">vertikal</label>
+	<label index="Wrap">Typ</label>
+	<label index="Circular">Endlosschleife</label>
+	<label index="NoWrap">keine Endlosschleife</label>
+	<label index="Scroll">Element-Anzahl</label>
+	<label index="AutoScroll">Autom. Scrollen</label>
+	<label index="AutoScrollYes">Ja</label>
+	<label index="AutoScrollNo">Nein</label>
+	<label index="Items1">IChannel - Elemente</label>
+	<label index="Items2">Hier können Sie die Elemente einfügen, die Sie anzeigen möchten:</label>
+	<label index="NoImage">Kein Bild vorhanden</label>
+	<label index="Preview">Vorschau</label>
+    </language>
+</languages>

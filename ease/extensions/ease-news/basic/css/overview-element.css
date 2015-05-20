@@ -1,0 +1,32 @@
+.EASENewsOverviewPart {
+    margin: 10px 0;
+}
+
+.EASENewsOverviewPart h1,
+.EASENewsOverviewPart h2,
+.EASENewsOverviewPart h3 {
+    margin-bottom: 5px;
+    padding-bottom: 0;
+}
+
+.EASENewsOverviewPart p {
+    margin: 0;
+    display: inline;
+}
+
+.EASENewsOverviewPart a:hover {
+    text-decoration: none;
+}
+
+.EASENewsOverviewPart p a:hover {
+    text-decoration: underline;
+}
+
+.EASENewsOverviewPartImage {
+    float: left;
+    width: 110px;
+}
+
+.EASENewsOverviewPartText {
+    margin-left: 110px;
+}

@@ -1,0 +1,35 @@
+<div class="BlackBackground"></div>
+<ease:message />
+<div class="Center">
+    <div class="Pad">
+	<form name="EditForm" method="post" enctype="multipart/form-data" action="../extension-popup.php?action=save">
+
+	    <h3>{DocumentAutoTitle1}</h3>
+	    <p><input type="Checkbox" name="DocumentAutoTitle" id="DocumentAutoTitle" value="1" class="Checkbox" <ease:DocumentAutoTitleChecked /> /> <label for="DocumentAutoTitle">{DocumentAutoTitle2}</label></p>
+
+	    <hr />
+
+	    <h3>{GenerateMode1}</h3>
+	    <p>{GenerateMode2}</p>
+	    <select name="GenerateMode">
+		<option value="1" <ease:GenerateModeSelected1 />>{GenerateMode3}</option>
+		<option value="2" <ease:GenerateModeSelected2 />>{GenerateMode4}</option>
+	    </select>
+
+	    <hr />
+
+	    <h3>{Theme1}</h3>
+	    <p>{Theme2}</p>
+	    <select name="Theme">
+		<ease:themeselect />
+	    </select>
+
+	</form>
+    </div>
+</div>
+
+<div class="Footer">
+    <div class="Pad">
+	<ease:footer />
+    </div>
+</div>

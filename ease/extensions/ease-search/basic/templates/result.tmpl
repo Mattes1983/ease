@@ -1,0 +1,54 @@
+<?php 
+    $_EaseSearch = new _EaseSearch;
+    $_EaseSearch->intMaxPerPage = "<ease:maxperpage />";
+    $_EaseSearch->intHeadlineLength = "<ease:headlinelength />";
+    $_EaseSearch->intTextLength = "<ease:textlength />";
+    $_EaseSearch->intPagingSpace = "<ease:pagingspace />";
+    $arrResults = $_EaseSearch->fctGetResults();
+    $arrPages = $_EaseSearch->fctPaging();
+?>
+<div class="SearchResult">
+    <h1>{Search1}</h1>
+    <p>{Search2} "<?= $_SESSION['EASESearch']['searchfield']?>"</p>
+    <?php if( count( $arrPages ) ){ ?>
+    <div class="Clear" style="height:15px;"></div>
+    <div class="SearchPaging">
+	<?php
+	    foreach( $arrPages as $arrPage )
+	    {
+		?><a href="<?= $arrPage['link'] ?>" class="<?= $arrPage['active'] ?>"><?= $arrPage['text'] ?></a><?php
+	    }
+	?>
+    </div>
+    <?php } ?>
+    <div class="SearchResults">
+    <?php
+	if( count( $arrResults ) )
+	{
+	    foreach( $arrResults as $arrResult )
+	    {
+		?>
+		    <div class="SearchResultBlock">
+			<h2><a href="<?= $arrResult['link'] ?>"><?= $arrResult['title'] ?></a></h2>
+			<p><a href="<?= $arrResult['link'] ?>"><?= $arrResult['text'] ?></a></p>
+		    </div>
+		<?php
+	    }
+	}
+	else
+	{
+	    ?>{NoResult}<?php
+	}
+    ?>
+    </div>
+    <?php if( count( $arrPages ) ){ ?>
+    <div class="SearchPaging">
+	<?php
+	    foreach( $arrPages as $arrPage )
+	    {
+		?><a href="<?= $arrPage['link'] ?>" class="<?= $arrPage['active'] ?>"><?= $arrPage['text'] ?></a><?php
+	    }
+	?>
+    </div>
+    <?php } ?>
+</div>

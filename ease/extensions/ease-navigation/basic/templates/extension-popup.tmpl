@@ -1,0 +1,32 @@
+<div class="BlackBackground"></div>
+<ease:message />
+<ease:edit />
+
+<header>
+    <div class="Buttons">
+	<form name="formSearch" onsubmit="return false">
+	    <div class="Search">
+		<div class="Left"><input type="text" name="search" value="<ease:searchvalue />" onfocus="if(this.value=='{Search}')this.value=''" onblur="if(this.value=='')this.value='{Search}'" onkeyup="fctPreSearch()" /></div>
+		<div class="Right SearchButton" onclick="fctSearch(true)" title="{Search}"></div>
+		<div class="Clear"></div>
+	    </div>
+	</form>
+    </div>
+    <hr />
+    <div class="Documents">
+	<h2>{Documents}</h2>
+	<div class="Content"></div>
+    </div>
+    <hr />
+</header>
+
+<div class="Menu">
+    <h2>{PageNavigation}</h2>
+    <ease:menu />
+</div>
+
+<footer>
+    <div class="Pad">
+	<ease:footer />
+    </div>
+</footer>

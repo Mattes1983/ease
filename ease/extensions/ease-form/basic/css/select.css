@@ -1,0 +1,25 @@
+.EASEFormSelect {
+    margin-bottom: 10px;
+}
+
+.EASEFormSelectTitle {
+    float: left;
+    width: 100px;
+}
+
+    .EASEFormSelectTitle label {
+    }
+
+.EASEFormSelectField {
+    margin-left: 100px;
+}
+
+    .EASEFormSelectField select {
+    }
+
+    .EASEFormSelectField select:focus {
+    }
+    
+.EASEFormErrorRequired select {
+    border: 1px #f00 solid;
+}

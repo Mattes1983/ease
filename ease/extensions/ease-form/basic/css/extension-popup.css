@@ -1,0 +1,28 @@
+.Checkbox,
+.Checkbox:hover,
+.Checkbox:focus {
+    width: auto;
+    height: auto;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.CopyValues {
+    display: none;
+}
+
+.Values {
+    margin: 0 0 15px;
+}
+
+.Values input,
+.Values a {
+    float: left;
+    margin: 0 5px 0 0;
+}
+
+.Clear {
+    clear: both;
+    height: 0;
+    overflow: hidden;
+}

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<buttons>
+    <level4>
+        <button>
+            <groupname>EaseImage</groupname>
+            <text>{Images}</text>
+            <description>{Images}</description>
+            <type>popup</type>
+        </button>
+    </level4>
+</buttons>

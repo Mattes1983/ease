@@ -1,0 +1,53 @@
+<div class="BlackBackground"></div>
+<ease:message />
+<ease:upload />
+<ease:bigger />
+
+<header>
+    <div class="Buttons">
+	<form name="formSearch" onsubmit="return false">
+	    <div class="Search">
+		<div class="Left"><input type="text" name="search" value="<ease:searchvalue />" onfocus="if(this.value=='{Search}')this.value=''" onblur="if(this.value=='')this.value='{Search}'" onkeyup="fctPreSearch()" /></div>
+		<div class="Right SearchButton" onclick="fctSearch(true)" title="{Search}"></div>
+		<div class="Clear"></div>
+	    </div>
+	</form>
+    </div>
+    <hr />
+    <ease:group />
+    <hr />
+</header>
+
+<div class="ImagePreview">
+    <form name="formImages"><input type="hidden" name="image_id" value="<ease:imageid />" /></form>
+    <h2>{Images}</h2>
+    <div class="Pad">
+	<div class="AddImage" onclick="fctOpenUpload()">
+	    <div class="Table">
+		<div class="TableCell">+</div>
+	    </div>
+	</div>
+    </div>
+</div>
+
+<ease:edit />
+
+<div class="Footer">
+    <div class="Pad">
+	<ease:footer />
+    </div>
+</div>
+
+<div class="Footer FooterEdit">
+    <div class="Pad">
+	<div class="ButtonBlack">
+	    <div class="ButtonLeft"></div><div class="ButtonCenter"><a href='javascript:;' onclick='document.FormEdit.submit()' class='Button'><span class='ButtonText'>{Save}</span></a></div><div class="ButtonRight"></div>
+	</div>
+	<div class="ButtonBlack">
+	    <div class="ButtonLeft"></div><div class="ButtonCenter"><a href='javascript:;' onclick='document.FormEdit.copy.value="1";document.FormEdit.submit()' class='Button'><span class='ButtonText'>{SaveCopy}</span></a></div><div class="ButtonRight"></div>
+	</div>
+	<div class="ButtonBlack">
+	    <div class="ButtonLeft"></div><div class="ButtonCenter"><a href='javascript:;' onclick='fctCloseEdit()'><span class='ButtonText'>{Cancel}</span></a></div><div class="ButtonRight"></div>
+	</div>
+    </div>
+</div>

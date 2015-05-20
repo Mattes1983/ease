@@ -1,0 +1,428 @@
+html {
+    height: 100%;
+}
+
+body {
+    font-family: Arial;
+    font-size: 10px; 
+    line-height: 120%;
+    color: #464444;
+    font-weight: normal;
+    background: url('../images/body-bg.png') repeat;
+    overlow-y: hidden;
+    overlow-x: hidden;
+    overflow: hidden;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 34px;
+    color: #4b4949;
+    display: block;
+    margin: 0 0 15px;
+    padding: 0;
+    background: url('../images/h1-bg.png') repeat-x left top #7c8287;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    text-align: center;
+    text-transform: uppercase;
+    -moz-box-shadow: 0 3px 4px #595d61;
+    -webkit-box-shadow: 0 3px 4px #595d61;
+    box-shadow: 0 3px 4px #595d61;
+    -moz-text-shadow: 1px 1px 2px #cecece;
+    -webkit-text-shadow: 1px 1px 2px #cecece;
+    text-shadow: 1px 1px 2px #cecece;
+}
+
+h2 {
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 120%;
+    margin: 0 0 10px 0;
+    padding: 0;
+    color: #313434;
+}
+
+h3 {
+    font-size: 11px;
+    font-weight: normal;
+    line-height: 120%;
+    margin: 0 0 5px 0;
+    padding: 0;
+    color: #313434;
+}
+
+form {
+    margin: 0;
+    padding: 0;
+}
+
+input,
+input:hover,
+input:focus {
+    width: 250px;
+    height: 20px;
+    border: 0;
+    border-radius: 4px;
+    color: #535353;
+    font-size: 12px;
+    line-height: 20px;
+    outline: 0;
+}
+    
+textarea,
+textarea:hover,
+textarea:focus {
+    width: 300px;
+    height: 80px;
+    border: 0;
+    border-radius: 4px;
+    color: #535353;
+    font-size: 12px;
+    line-height: 20px;
+    outline: 0;
+}
+
+.Checkbox,
+.Checkbox:hover,
+.Checkbox:focus {
+    width: auto;
+    height: auto;
+    display: inline-block;
+    cursor: pointer;
+}
+
+a {
+    outline: none;
+}
+
+p {
+    margin: 0 0 15px 0;
+}
+
+img {
+    border: 0;
+    outline: 0;
+}
+
+label {
+    cursor: pointer;
+}
+
+hr {
+    background-color: none;
+    border-top: 1px #474748 solid;
+    border-bottom: 1px #ababac solid;
+    height: 0;
+    overflow: hidden;
+    margin: 20px 0;
+}
+
+.Clear {
+    clear: both;
+    height: 0;
+    overflow: hidden;
+}
+
+/* Buttons */
+.ButtonBlack {
+    float: right;
+    margin: 5px 0 0 5px;
+}
+
+.ButtonBlack .ButtonCenter {
+    float: left;
+    height: 25px;
+    line-height: 25px;
+    background: none;
+    background: url('../images/button-center.png') repeat-x;
+}
+
+.ButtonBlack .ButtonLeft {
+    float: left;
+    width: 5px;
+    height: 25px;
+    line-height: 25px;
+    background: url('../images/button-left.png') no-repeat 0 0;
+}
+
+.ButtonBlack .ButtonRight {
+    float: left;
+    width: 5px;
+    height: 25px;
+    line-height: 25px;
+    background: url('../images/button-right.png') no-repeat right 0;
+}
+
+.ButtonBlack .ButtonCenter a,
+.ButtonBlack .ButtonCenter a:link,
+.ButtonBlack .ButtonCenter a:visited,
+.ButtonBlack .ButtonCenter a:active,
+.ButtonBlack .ButtonCenter a:hover,
+.ButtonBlack .ButtonCenter input,
+.ButtonBlack .ButtonCenter select {
+    display: inline-block;
+    width: auto;
+    height: 25px;
+    padding: 0 10px;
+    background: none;
+    border-radius: 0;
+    border: 0;
+    cursor: pointer;
+    color: #fff;
+    line-height: 25px;
+    text-decoration: none;
+}
+
+.ButtonBlack .ButtonCenter select {
+    background: #494c50;
+    color: #fff;
+    padding: 0;
+    font-size: 11px;
+    border: 0;
+    line-height: 23px;
+    height: 23px;
+}
+
+.ButtonBlack .ButtonCenter select:hover,
+.ButtonBlack .ButtonCenter select:focus {
+    background: #494c50;
+    color: #fff;
+}
+
+.Top {
+    position: absolute;
+    top: 0;
+    left:0;
+    width: 100%;
+    height: 60px;
+    background-color: #585a5d;
+    -moz-box-shadow: 2px 3px 4px #666;
+    -webkit-box-shadow: 2px 3px 4px #666;
+    box-shadow: 2px 3px 4px #666;
+}
+
+    .Top .Left {
+	margin: 20px 0 0 20px;
+	width: 200px;
+	float: left;
+    }
+
+    .Top .Right {
+	margin: 20px 0 0 0;
+	width: 42px;
+	height: 23px;
+	float: left;
+    }
+
+    .Top input,
+    .Top input:hover,
+    .Top input:focus {
+	width: 200px;
+	height: 20px;
+	border: 0;
+	border-top-left-radius: 4px;
+	border-bottom-left-radius: 4px;
+	color: #535353;
+	font-size: 12px;
+	line-height: 20px;
+	outline: 0;
+    }
+    
+    .Top .SearchButton {
+	width: 42px;
+	height: 23px;
+	background: url('../images/button-search.png') no-repeat;
+	cursor: pointer;
+    }
+    
+    .Top .TopButtons {
+	float: right;
+	margin: 18px 20px 0 0;
+    }
+
+.Center {
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}
+
+    .Center .Pad {
+	padding: 10px 10px 10px 20px;
+    }
+    
+    .TitleChars,
+    .DescriptionChars {
+	padding: 2px 5px;
+	display: inline-block;
+	background-color: #6c7176;
+	color: #fff;
+	font-size: 10px;
+    }
+
+footer,
+.Footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    text-align: right;
+    background: url('../images/footer-bg.png') repeat-x #3b3d3e;
+}    
+
+    footer .Pad,
+    .Footer .Pad {
+	padding: 7px 20px;
+    }
+    
+/* Buttons */
+.ButtonBlack {
+    float: right;
+    margin: 5px 0 0 5px;
+}
+
+.ButtonBlack .ButtonCenter {
+    float: left;
+    height: 25px;
+    line-height: 25px;
+    background: none;
+    background: url('../images/button-center.png') repeat-x;
+}
+
+.ButtonBlack .ButtonLeft {
+    float: left;
+    width: 5px;
+    height: 25px;
+    line-height: 25px;
+    background: url('../images/button-left.png') no-repeat 0 0;
+}
+
+.ButtonBlack .ButtonRight {
+    float: left;
+    width: 5px;
+    height: 25px;
+    line-height: 25px;
+    background: url('../images/button-right.png') no-repeat right 0;
+}
+
+.ButtonBlack .ButtonCenter a,
+.ButtonBlack .ButtonCenter a:link,
+.ButtonBlack .ButtonCenter a:visited,
+.ButtonBlack .ButtonCenter a:active,
+.ButtonBlack .ButtonCenter a:hover,
+.ButtonBlack .ButtonCenter input {
+    width: auto;
+    height: 25px;
+    padding: 0 10px;
+    background: none;
+    border-radius: 0;
+    border: 0;
+    cursor: pointer;
+    color: #fff;
+    line-height: 25px;
+    text-decoration: none;
+}
+    
+.BlackBackground {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 15;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+}
+
+.Dialog {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -150px;
+    margin-left: -175px;
+    width: 350px;
+    min-height: 300px;
+    border: 1px transparent solid;
+    border-radius: 4px;
+    background-color: #6c7176;
+    overflow: hidden;
+}
+
+.Dialog:hover,
+.Dialog:focus {
+    border: 1px #fff solid;
+}
+
+    .Dialog .DialogTop {
+	min-height: 250px;
+    }
+
+    .Dialog .Pad {
+	padding: 0 10px;
+    }
+
+    .Dialog .DialogFooter {
+	width: 100%;
+	height: 50px;
+	background: url('../images/footer-bg.png') repeat-x #3b3d3e;
+	text-align: right;
+    }
+    
+    .Dialog .DialogFooter .Pad {
+	padding: 7px 20px;
+    }
+    
+    .Dialog input,
+    .Dialog input:hover,
+    .Dialog input:focus {
+	width: 300px;
+	margin-bottom: 10px;
+	border: 0;
+	border-radius: 4px;
+	color: #535353;
+	font-size: 12px;
+	line-height: 20px;
+	outline: 0;
+    }
+    
+    .Dialog textarea,
+    .Dialog textarea:hover,
+    .Dialog textarea:focus {
+	width: 300px;
+	height: 80px;
+	border: 0;
+	border-radius: 4px;
+	color: #535353;
+	font-size: 12px;
+	line-height: 20px;
+	outline: 0;
+    }
+    
+.MessageDialog {
+    z-index: 99;
+    margin-top: -100px;
+    margin-left: -175px;
+    width: 350px;
+    min-height: 200px;
+}
+
+    .MessageDialog .DialogTop {
+	min-height: 150px;
+    }
+
+    .MessageDialog .DialogTop {
+	height: 150px;
+    }
+
+    .MessageDialog .DialogFooter {
+	height: 50px;
+    }

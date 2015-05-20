@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<buttons>
+    <level4>
+        <button>
+            <groupname>{Settings}</groupname>
+            <text>{Basic}</text>
+            <description>{Basic}</description>
+            <type>popup</type>
+	    <popup_width>800</popup_width>
+	    <popup_height>600</popup_height>
+            <paramname>setting</paramname>
+            <paramvalue>basic</paramvalue>
+        </button>
+    </level4>
+</buttons>

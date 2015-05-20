@@ -1,0 +1,42 @@
+<div class="Edit">
+    <form name="FormEdit" action="../extension-popup.php?action=saveedit" method="post">
+    <input type="hidden" name="eii_id" />
+    <input type="hidden" name="copy" />
+	<div class="Pad">
+
+	    <h3>{Filename}</h3>
+	    <p><input name="filename" /></p>
+
+	    <h3>{Keywords1}</h3>
+	    <p>{Keywords2}</p>
+	    <p><textarea name="keywords"></textarea></p>
+
+	    <h3>{Crop1}</h3>
+	    <p>{Crop2} <span class="AutomaticTxt">{Crop3}</span></p>
+	    <div class="Size">
+		<div class="Pad">
+		    <div class="Title">{Width}:</div>
+		    <div class="Field"><input type="text" id="w" name="w" onkeyup="$('#x').val('0');$('#y').val('0');fctPreSetSelect()" /></div>
+
+		    <div class="Title">{Height}:</div>
+		    <div class="Field"><input type="text" id="h" name="h" onkeyup="$('#x').val('0');$('#y').val('0');fctPreSetSelect()" /></div>
+
+		    <div class="Title">Position-X:</div>
+		    <div class="Field"><input type="text" id="x" name="x" onkeyup="fctPreSetSelect()" /></div>
+
+		    <div class="Title">Position-Y:</div>
+		    <div class="Field"><input type="text" id="y" name="y" onkeyup="fctPreSetSelect()" /></div>
+
+		    <div class="Automatic ButtonBlack">
+			<div class="ButtonLeft"></div>
+			<div class="ButtonCenter"><input type="button" value="{Automatic}" onclick="fctSetAutomatic()" /></div>
+			<div class="ButtonRight"></div>
+			<div class="Clear"></div>
+		    </div>	
+		    <div class="Clear"></div>
+		</div>
+	    </div>
+	    <div class="EditImage"></div>
+	</div>
+    </form>
+</div>

@@ -1,0 +1,35 @@
+.SearchPaging a {
+    display: inline-block;
+    margin: 0 2px 0 0;
+    padding: 2px 5px;
+    text-decoration: none;
+}
+
+.SearchPaging a:hover,
+.SearchPaging a.Active {
+    text-decoration: underline;
+}
+
+.SearchResult p {
+    margin: 0;
+    padding: 0;
+}
+
+.SearchResult p a,
+.SearchResult p a:link,
+.SearchResult p a:visited,
+.SearchResult p a:active,
+.SearchResult p a:hover,
+.SearchResult p a:focus {
+    color: #000;
+    display: block;
+    text-decoration: none;
+}
+
+.SearchResults {
+    margin: 15px 0;
+}
+
+.SearchResultBlock {
+    margin: 20px 0;
+}

@@ -1,0 +1,46 @@
+<ease:edit edit="true" move="true" join="true" copy="true" delete="true" />
+<div id="EASENewsDetailEdit-<ease:id />" class="EASENewsDetailEditDisplay">
+    <div class="EASENewsDetailEdit">
+	<form name="EASENewsDetailEditForm-<ease:id />" onSubmit="return false">
+	<h1>easeNews-{Settings1}</h1>
+	<div class="Pad">
+
+	    <p>{Settings2}</p>
+
+	    <div class="EASENewsDetailEditBlock">
+		<div class="EASENewsDetailEditLeft">{StartDate}:</div>
+		<div class="EASENewsDetailEditRight">
+		    <div class="CalendarStartDate"></div>
+		    <a class="CalendarButtonStartDate" href="javascript:;" onclick="fctShowCal('<ease:id />','StartDate','')"><img src="basic/images/calendar.png" alt="{Calendar}" /></a>
+		    <input type="hidden" name="startdate" value="<ease:startdate />" />
+		</div>
+		<div class="Clear"></div>
+	    </div>
+
+	    <div class="EASENewsDetailEditBlock">
+		<div class="EASENewsDetailEditLeft">{EndDate}:</div>
+		<div class="EASENewsDetailEditRight">
+		    <div class="CalendarEndDate"></div>
+		    <a class="CalendarButtonEndDate" href="javascript:;" onclick="fctShowCal('<ease:id />','EndDate','')"><img src="basic/images/calendar.png" alt="{Calendar}" /></a>
+		    <input type="hidden" name="enddate" value="<ease:enddate />" />
+		</div>
+		<div class="Clear"></div>
+	    </div>
+
+	</div>
+
+	<div class="Clear" style="height:10px;"></div>
+
+	</form>
+
+	<h1>{Items1}</h1>
+	<div class="Pad">
+	    <p>{Items2}</p>
+	</div>	
+    </div>
+    <ease:news />
+    <div class="EASENewsDetailEdit">&nbsp;</div>
+</div>
+<div id="EASENewsDetailNotEdit-<ease:id />">
+    <ease:news2 />
+</div>

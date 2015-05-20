@@ -1,0 +1,33 @@
+.ElementBlock-33-33-33 {
+    display: block;
+    width: 100%;
+    margin: 5px 0 10px;
+}
+
+.ElementBlock-33-33-33 .Element1{
+    display: inline-block;
+    float: left;
+    width: 30%;
+    min-height: 20px;
+}
+
+.ElementBlock-33-33-33 .Element2 {
+    display: inline-block;
+    float: left;
+    width: 30%;
+    min-height: 20px;
+}
+
+.ElementBlock-33-33-33 .Element3 {
+    display: inline-block;
+    float: left;
+    width: 30%;
+    min-height: 20px;
+}
+
+.ElementBlock-33-33-33 .ElementSpace {
+    display: inline-block;
+    float: left;
+    width: 5%;
+    min-height: 20px;
+}

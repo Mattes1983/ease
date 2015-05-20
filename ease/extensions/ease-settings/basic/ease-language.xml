@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<languages>
+    <language index="en">
+	<label index="Close">Close</label>
+	<label index="Save">Save</label>
+	<label index="Ok">Ok</label>
+	<label index="Settings">Settings</label>
+	<label index="Basic">Basic</label>
+	<label index="DocumentAutoTitle1">Document-Auto-Title</label>
+	<label index="DocumentAutoTitle2">Should the page title will be set automatically?</label>
+	<label index="GenerateMode1">Generate-Mode</label>
+	<label index="GenerateMode2">Select a generation mode</label>
+	<label index="GenerateMode3">generate while browsing</label>
+	<label index="GenerateMode4">manually generate</label>
+	<label index="LinkInfo1">Item Information (Debug)</label>
+	<label index="LinkInfo2">Should the info window displays on each item?</label>
+	<label index="Theme1">CMS Themes</label>
+	<label index="Theme2">Here you can change the theme</label>
+    </language>
+    <language index="de">
+	<label index="Close">Schließen</label>
+	<label index="Save">Speichern</label>
+	<label index="Ok">Ok</label>
+	<label index="Settings">Einstellungen</label>
+	<label index="Basic">CMS-Basis</label>
+	<label index="DocumentAutoTitle1">Automatischer Seiten-Titel</label>
+	<label index="DocumentAutoTitle2">Soll der Seiten-Titel automatisch gesetzt werden?</label>
+	<label index="GenerateMode1">Modus für die Veröffentlichung</label>
+	<label index="GenerateMode2">Wählen Sie einen Veröffentlichungsmodus aus</label>
+	<label index="GenerateMode3">bei jedem Seitenaufruf veröffentlichen</label>
+	<label index="GenerateMode4">manuel veröffentlichen</label>
+	<label index="LinkInfo1">Element Information (Debug)</label>
+	<label index="LinkInfo2">Soll das Info-Fenster an jedem Element angezeigt werden?</label>
+	<label index="Theme1">CMS Themes</label>
+	<label index="Theme2">Hier können Sie ein Theme für das CMS wählen.</label>
+    </language>
+</languages>

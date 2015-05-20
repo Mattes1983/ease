@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<languages>
+    <language index="en">
+	<label index="Close">Close</label>
+	<label index="Save">Save</label>
+	<label index="News">News</label>
+	<label index="NewsOverview">Overview</label>
+	<label index="NewsOverview2">A news-overview</label>
+	<label index="NewsDetail">Detail</label>
+	<label index="NewsDetail2">A news-detail</label>
+	<label index="Settings1">Settings</label>
+	<label index="Settings2">Here you can make settings for display.</label>
+	<label index="Items1">Items</label>
+	<label index="Items2">Here you can drag the items you want to view:</label>
+	<label index="StartDate">Start-date</label>
+	<label index="EndDate">Archive-date</label>
+	<label index="HeadlineLength">Headline-Length</label>
+	<label index="TextLength">Text-Length</label>
+	<label index="DetailLinkText">Text for detaillink</label>
+	<label index="Calendar">Calender</label>
+    </language>
+    <language index="de">
+	<label index="Close">Schließen</label>
+	<label index="Save">Speichern</label>
+	<label index="News">News</label>
+	<label index="NewsOverview">Übersicht</label>
+	<label index="NewsOverview2">Dieses Element gibt alle vorhandenen News in einer Liste aus</label>
+	<label index="NewsDetail">Detail</label>
+	<label index="NewsDetail2">Um eine neue News anzulegen, können Sie diesen Container benutzen</label>
+	<label index="Settings1">Einstellungen</label>
+	<label index="Settings2">Hier können Sie Einstellungen zur Darstellung vornehmen.</label>
+	<label index="Items1">Elemente-Start</label>
+	<label index="Items2">Hier können Sie die Elemente einfügen, die Sie anzeigen möchten:</label>
+	<label index="StartDate">Start-Datum</label>
+	<label index="EndDate">Archiv-Datum</label>
+	<label index="HeadlineLength">Überschriftlänge</label>
+	<label index="TextLength">Textlänge</label>
+	<label index="DetailLinkText">Text für Detail-Link</label>
+	<label index="Calendar">Kalender</label>
+    </language>
+</languages>

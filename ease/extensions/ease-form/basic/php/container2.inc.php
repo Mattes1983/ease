@@ -1,0 +1,1 @@
+$_EASEF<ease:id />->fctCheckForm( <ease:id /> );

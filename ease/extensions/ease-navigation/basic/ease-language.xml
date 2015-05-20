@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<languages>
+    <language index="en">
+	<label index="Cancel">Cancel</label>
+	<label index="Close">Close</label>
+	<label index="Save">Save</label>
+	<label index="Ok">Ok</label>
+	<label index="Search">Search</label>
+	<label index="Name">Name</label>
+	<label index="Document">Document</label>
+	<label index="Documents">Documents</label>
+	<label index="NoItem">No-Item found</label>
+	<label index="Edit">Edit navigation</label>
+	<label index="ExternURL">Extern URL</label>
+	<label index="Target">Target</label>
+	<label index="DocTitle">Document Title</label>
+	<label index="NoTitle">No Title</label>
+	<label index="Author">Author</label>
+	<label index="LastChange">Last Change</label>
+	<label index="Description">Description</label>
+	<label index="Content">Content</label>
+	<label index="Delete1">Delete</label>
+	<label index="Delete2">You really want to delete this link?</label>
+	<label index="Delete3">The Item can not be deleted</label>
+	<label index="No">No</label>
+	<label index="Yes">Yes</label>
+	<label index="PageNavigation">Page Navigation</label>
+	<label index="NameLength">The navigation name must contain at least one character</label>
+	<label index="LinkText">Link-Text</label>
+    </language>
+    <language index="de">
+	<label index="Cancel">Abbrechen</label>
+	<label index="Close">Schließen</label>
+	<label index="Save">Speichern</label>
+	<label index="Ok">Ok</label>
+	<label index="Search">Suche</label>
+	<label index="Name">Name</label>
+	<label index="Document">Dokument</label>
+	<label index="Documents">Dokumente</label>
+	<label index="NoItem">Kein Navigationspunkt vorhanden</label>
+	<label index="Edit">Navigation bearbeiten</label>
+	<label index="ExternURL">Externe URL</label>
+	<label index="Target">Ziel</label>
+	<label index="DocTitle">Dokument Titel</label>
+	<label index="NoTitle">Kein Titel</label>
+	<label index="Author">Autor</label>
+	<label index="LastChange">Letzte Änderung</label>
+	<label index="Description">Beschreibung</label>
+	<label index="Content">Inhalt</label>
+	<label index="Delete1">Löschen</label>
+	<label index="Delete2">Wollen Sie diesen Link wirklich löschen?</label>
+	<label index="Delete3">Der Link kann nicht gelöscht werden.</label>
+	<label index="No">Nein</label>
+	<label index="Yes">Ja</label>
+	<label index="PageNavigation">Seiten Navigation</label>
+	<label index="NameLength">Der Navigationsname muss mindestens 1 Zeichen enthalten.</label>
+	<label index="LinkText">Link-Text</label>
+    </language>
+</languages>

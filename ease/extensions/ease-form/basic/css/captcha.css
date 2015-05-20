@@ -1,0 +1,31 @@
+.EASEFormCaptcha {
+    margin-bottom: 10px;
+}
+
+.EASEFormCaptcha p {
+    
+}
+
+.EASEFormCaptchaTitle {
+    float: left;
+    width: 100px;
+}
+
+    .EASEFormCaptchaTitle label {
+    }
+    
+.EASEFormCaptchaField {
+    margin-left: 100px;
+}
+
+    .EASEFormCaptchaField input {
+
+    }
+
+    .EASEFormCaptchaField input:focus {
+
+    }
+    
+.EASEFormErrorRequired input {
+    border: 1px #f00 solid;
+}
